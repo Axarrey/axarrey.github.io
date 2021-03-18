@@ -1,0 +1,110 @@
+:root {
+    --bg-color: #E9E1F2;
+    --standard-font: Arial, sans-serif;
+    --font-color: black;
+}
+
+.index-header {
+    background-color: black;
+    width: 100%;
+}
+
+.index-header div {
+    display: grid;
+    grid-template-areas: "avatar text logo";
+    align-items: center;
+    
+    
+}
+
+.twitch-logo {
+    grid-area: logo;
+    justify-self: right;
+    align-self:baseline;
+    height: 5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.index-h1 {
+    display: block;
+    font-style: var(--standard-font);
+    text-align: center;
+}
+
+.twitch-logo:hover {
+    transform: rotate(20deg);
+}
+
+.avatar {
+    grid-area: avatar;
+    float: left;
+    height: 5rem;
+    border: 3px solid #6441a5;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-size: 100%;
+    margin: 0;
+    color:var(--font-color);
+
+
+}
+
+.index-heading {
+    text-align: center;
+}
+
+.index-img {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+.index-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em 4em;
+}
+
+.index-video-container {
+    margin: 3rem;
+    justify-self: center;
+    border-right: 3px solid black;
+}
+
+.index-video {
+    box-shadow: 5px 5px 10px black;
+}
+
+.index-section {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 2rem;
+}
+
+.index-stats-container {
+    display: flex;
+    height: 100%;
+    padding-left: 2rem;
+    justify-self: left;
+    align-self: center;
+    border-left: 3px solid black;
+    
+}
+
+.index-stats {
+    align-self: center;
+}
+
+.index-game-logo {
+    justify-self: right;
+    border-right: 3px solid black;
+    
+}

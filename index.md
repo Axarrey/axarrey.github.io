@@ -1,3 +1,3 @@
 # Hey there!
 
-[MainSite](/main.html)
+[MainSite](https://axarrey.github.io/main.html)

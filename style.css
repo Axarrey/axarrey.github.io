@@ -1,6 +1,6 @@
 :root {
     --bg-color: #E9E1F2;
-    --standard-font: Arial, sans-serif;
+    --standard-font: Arial, Helvetica sans-serif;
     --font-color: black;
 }
 
@@ -53,6 +53,7 @@ body {
     font-size: 100%;
     margin: 0;
     color:var(--font-color);
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -62,8 +63,7 @@ body {
 }
 
 .index-img {
-    padding-left: 1rem;
-    padding-right: 2rem;
+   justify-self: left;
 }
 
 .index-main {
@@ -73,10 +73,15 @@ body {
     margin: 1em 4em;
 }
 
+.grid-section {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+}
+
 .index-video-container {
-    margin: 3rem;
-    justify-self: center;
-    border-right: 3px solid black;
+    justify-self: right;
+    align-self: center;
 }
 
 .index-video {
@@ -85,31 +90,18 @@ body {
 
 .index-section {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: auto auto;
     gap: 2rem;
 }
 
 .index-stats-container {
-    display: flex;
-    height: 100%;
-    padding-left: 2rem;
+    display: block;
     justify-self: left;
     align-self: center;
-    border-left: 3px solid black;
     
 }
 
-.index-stats {
-    align-self: center;
-}
-
-.index-game-logo {
-    justify-self: right;
-    border-right: 3px solid black;
-    
-}
-
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .index-section {
         display: flex;
         flex-direction: column;

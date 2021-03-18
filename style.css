@@ -3,37 +3,15 @@
     --font-color: black;
 }
 
+/****************************************/
+/******** Header, Avatar and Logo *******/
+
 .index-header {
+    display: grid;
+    grid-template-areas: "avatar text logo"; 
     background-color: black;
     width: 100%;
-}
-
-.index-header div {
-    display: grid;
-    grid-template-areas: "avatar text logo";
     align-items: center;
-    
-    
-}
-
-.twitch-logo {
-    grid-area: logo;
-    justify-self: right;
-    align-self:baseline;
-    height: 5rem;
-    margin-right: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.index-h1 {
-    display: block;
-    font-style: var(--standard-font);
-    text-align: center;
-}
-
-.twitch-logo:hover {
-    transform: rotate(20deg);
 }
 
 .avatar {
@@ -43,9 +21,23 @@
     border: 3px solid #6441a5;
     border-radius: 50%;
     margin-left: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
 }
+
+.twitch-logo {
+    grid-area: logo;
+    justify-self: right;
+    height: 5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.twitch-logo:hover {
+    transform: rotate(20deg);
+}
+
+/**************************************/
+/******** Main body and related *******/
 
 body {
     background-color: var(--bg-color);
@@ -53,18 +45,9 @@ body {
     margin: 0;
     color:var(--font-color);
     font-family: Arial, Helvetica, sans-serif;
-
-
 }
 
-.index-heading {
-    text-align: center;
-}
-
-.index-img {
-   justify-self: left;
-}
-
+/* Setting boundaries as well as general content alignment */
 .index-main {
     display: flex;
     flex-direction: column;
@@ -72,7 +55,19 @@ body {
     margin: 1em 4em;
 }
 
-.grid-section {
+.index-h1 {
+    text-align: center;
+}
+
+/* Main Grid for keeping video left & logo + text right */
+.index-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+
+/* Grid within right logo/text column */
+.grid-logo-text {
     display: grid;
     grid-template-rows: auto auto;
     gap: 2rem;
@@ -83,14 +78,12 @@ body {
     align-self: center;
 }
 
-.index-video {
-    box-shadow: 5px 5px 10px black;
+.index-img {
+   justify-self: left;
 }
 
-.index-section {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 2rem;
+.index-video {
+    box-shadow: 5px 5px 10px black;
 }
 
 .index-stats-container {
@@ -107,11 +100,18 @@ body {
         align-content: center;
     }
 
+    .grid-section {
+        justify-content: center;
+        align-content: center;
+    }
 
-    .index-game-logo {
-        order: -1;
+    .index-stats-container {
         justify-self: center;
-        border-right: 0;
+    }
+
+
+    .index-img {
+        order: -1;
     }
 
     .index-video-container {

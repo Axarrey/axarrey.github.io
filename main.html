@@ -9,42 +9,32 @@
 
 <body>
     <header class="index-header">
-        <div>
-            <img src="resources/Sleep-Big.png" class="avatar">
-            <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
+        <div><a href="https://twitch.tv/axarrey" target="_blank"><img src="resources/Sleep-Big.png" class="avatar"></a>
         </div>
-
+        <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
     </header>
     <main class="index-main">
-        <h1 class="index-heading">Game Stats & Thoughts</h1>
+        <h1 class="index-h1">Game Stats & Thoughts</h1>
 
         <section class="index-section">
-            <div class="index-video-container"><div >
-
-            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-            <div id="50"></div>
-            <script type="text/javascript">
-                var options = {
-                    width: 500,
-                    height: 281,
-                    collection: "7xLzsX4DahZdRQ",
-                };
-                var player = new Twitch.Player("50", options);
-                player.setVolume(0.5);
-            </script>
-            <!--<iframe
-            src="https://player.twitch.tv/?collection=&parent=axarrey.github.io"
-            height="216"
-            width="384"
-            allowfullscreen="false"
-            class="index-video">
-            </iframe>-->
+            <div class="index-video-container">
+                <div>
+                    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                    <div id="50"></div>
+                    <script type="text/javascript">
+                        var options = {
+                            width: 500,
+                            height: 281,
+                            autoplay: false,
+                            collection: "7xLzsX4DahZdRQ",
+                        };
+                        var player = new Twitch.Player("50", options);
+                        player.setVolume(0.5);
+                    </script>
+                </div>
             </div>
-            </div>
-            <div class="grid-section">
-                
-                    <img src="resources/ff1_logo.png" class="index-img">
-
+            <div class="grid-logo-text">
+                <img src="resources/ff1_logo.png" class="index-img">
                 <div class="index-stats-container">
                     <div class="index-stats">Final Fantasy 1 is an alright game actually!</div>
                 </div>

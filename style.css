@@ -1,6 +1,5 @@
 :root {
     --bg-color: #E9E1F2;
-    --standard-font: Arial, Helvetica sans-serif;
     --font-color: black;
 }
 
@@ -113,7 +112,6 @@ body {
         order: -1;
         justify-self: center;
         border-right: 0;
-        border-bottom: 3px solid black;
     }
 
     .index-video-container {

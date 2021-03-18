@@ -1,3 +1,3 @@
 # Hey there!
 
-[MainSite](/index.html)
+[MainSite](/main.html)

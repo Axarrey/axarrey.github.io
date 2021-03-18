@@ -23,14 +23,26 @@
                 <img src="resources/ff1_logo.png" class="index-img">
             </div>
             
-            </div class="index-video-container">       
-                <iframe
-                    src="https://player.twitch.tv/?collection=7xLzsX4DahZdRQ&parent=axarrey.github.io"
+            </div class="index-video-container">
+        
+                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                <div id="50"></div>
+                <script type="text/javascript">
+                    var options = {
+                        width: 384,
+                        height: 216
+                        collection: "7xLzsX4DahZdRQ",
+                        };
+                        var player = new Twitch.Player("50", options);
+                        player.setVolume(0.5);
+                    </script>
+                <!--<iframe
+                    src="https://player.twitch.tv/?collection=&parent=axarrey.github.io"
                     height="216"
                     width="384"
                     allowfullscreen="false"
                     class="index-video">
-                </iframe>
+                </iframe>-->
         
             <div class="index-stats-container"><div class="index-stats">Hey there</div></div>    
         </section>

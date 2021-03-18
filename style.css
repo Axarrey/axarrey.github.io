@@ -108,3 +108,27 @@ body {
     border-right: 3px solid black;
     
 }
+
+@media (max-width: 800px) {
+    .index-section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+
+    .index-game-logo {
+        order: -1;
+        justify-self: center;
+        border-right: 0;
+        border-bottom: 3px solid black;
+    }
+
+    .index-video-container {
+        order: 2;
+    }
+
+    .index-stats {
+        order: 3;
+    }
+}

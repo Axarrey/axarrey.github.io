@@ -59,6 +59,9 @@ body {
 
 .index-h1 {
     text-align: center;
+    color: white;
+    grid-area: text;
+    font-size: 4rem;
 }
 
 /* Main Grid for keeping video left & logo + text right */

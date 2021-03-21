@@ -50,7 +50,9 @@ body {
 /* Setting boundaries as well as general content alignment */
 .index-main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-flow:row; /*new design 18.03.2021*/
+    /*flex-direction: column;  old design */
     justify-content: center;
     margin: 1em 4em;
 }
@@ -60,18 +62,41 @@ body {
 }
 
 /* Main Grid for keeping video left & logo + text right */
-.index-section {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 2rem;
-}
 
 /* Grid within right logo/text column */
 .grid-logo-text {
     display: grid;
-    grid-template-rows: auto auto;
-    gap: 2rem;
+
+    /* grid-template-columns: auto auto;  old design */
+    /* new design 18.03.2021 */
+    grid-template-rows: max-content;
+    grid-template-columns: 400px;
+    /* gap: 2rem old design */
+    align-items: flex-start;
+    justify-items: center;
+    margin: 0.5rem 0.5rem;
+    height: max-content;
+    background-color: white;
+    box-shadow: 2px 2px 15px black;
+
 }
+
+.index-stats {
+    
+    
+}
+
+.index-table {
+    margin-left: 0.5rem;
+    border-collapse: separate;
+    border-spacing: 0px 3px;
+    text-align: left;
+}
+
+.index-table td {
+    letter-spacing: 1px;
+}
+
 
 .index-video-container {
     justify-self: right;
@@ -80,17 +105,35 @@ body {
 
 .index-img {
    justify-self: left;
+   width: auto;
+   height: auto;
+   padding-bottom: 1rem;
+}
+
+ul {
+    list-style-image: url('resources/Cursor.gif');
+    margin-top: 0.2rem;
+    padding-left: 30px;
+}
+
+li {
+    letter-spacing: 1px;
 }
 
 .index-video {
     box-shadow: 5px 5px 10px black;
 }
 
-.index-stats-container {
-    display: block;
-    justify-self: left;
-    align-self: center;
+.thoughts-link {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    letter-spacing: 1px;
     
+}
+
+.point-of-interest {
+    margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #E9E1F2;
+    --bg-color: #424549;
     --font-color: black;
 }
 
@@ -80,10 +80,14 @@ body {
     margin: 0.5rem 0.5rem;
     height: max-content;
     width: max-content;
-    background-color: white;
-    box-shadow: 2px 2px 15px black;
+    background-color: #bbbbbb;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 10px;
+    padding: 1rem;
 
 }
+
+/* needs comments and general categorization */
 
 
 .index-table {

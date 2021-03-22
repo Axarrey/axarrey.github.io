@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="index-header-container">
+        <div><a href="https://twitch.tv/axarrey" target="_blank"><img src="resources/Sleep-Big.png" class="avatar"></a></div>
+        <div class="index-header-text">Final Fantasy 1 Playthrough Summary</div>
+        <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
+    </header>
+    <div style="margin: auto; width: 100%; color: white">Supported Width: >500px - <span id="your-width"></span></div>
+    <script>
+        var w = window.innerWidth;
+
+        var x = document.getElementById("your-width");
+        x.innerHTML = "your width is " + w + "! Does not update on resize. Reload required.";
+    </script>
+
+    <main class="summary-main">
+        <div class="summary-grid">
+            <div class="summary-logo-video">
+                <picture>
+                    <source media="(max-width: 500px)" srcset="resources/ff1_logo_500.png">
+                    <source media="(min-width: 501px)" srcset="resources/ff1_logo.png">
+                    <img src="resources/ff1_logo.png" alt="Logo of Final Fantasy 1" class="index-img">
+                </picture>
+
+                <div class="index-video-container">
+                    <div>
+                        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                        <div id="50"></div>
+                        <script type="text/javascript">
+                            var options = {
+                                width: 500,
+                                height: 281,
+                                autoplay: false,
+                                collection: "7xLzsX4DahZdRQ",
+                            };
+                            var player = new Twitch.Player("50", options);
+                            player.setVolume(0.5);
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="Stream Summary">
+                <h2>Stream Summary</h2>
+                <ul>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+
+                </ul>
+            </div>
+        </div>
+        <h2>Game Thoughts</h2>
+
+    </main>
+
+
+</body>
+
+</html>

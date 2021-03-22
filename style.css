@@ -64,6 +64,20 @@ body {
     margin: 1em 3em;
 }
 
+.summary-main {
+    margin: 1rem 3rem;
+    justify-content: left;
+    color: white;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: 550px auto;
+    gap: 2rem;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+}
+
 
 
 /* Main Grid for keeping video left & logo + text right */
@@ -101,6 +115,7 @@ body {
 
 .index-table td {
     letter-spacing: 1px;
+    vertical-align: top;
 }
 
 
@@ -111,8 +126,7 @@ body {
 
 .index-img {
    justify-self: left;
-   width: auto;
-   height: auto;
+   
    padding-bottom: 1rem;
 }
 
@@ -142,6 +156,12 @@ li {
     
 }
 
+.summary-logo-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .point-of-interest {
     margin-left: 0.5rem;
 }
@@ -155,6 +175,18 @@ li {
         align-items: center;
     }
 
+    .summary-main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .summary-grid {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
     .index-header-text {
         font-size: 2rem;
     }
@@ -162,8 +194,6 @@ li {
     .index-img {
         align-self: center;
         justify-self: center;
-        width: 80%;
-        height: 80%;
     }
 
     .avatar {
@@ -202,6 +232,10 @@ li {
         font-size: 80%;
     }
 
+    .index-main {
+        margin: 1em 1em;
+    }
+
     .index-header-text {
         font-size: 1rem;
     }
@@ -215,5 +249,6 @@ li {
 
     .index-table {
         width: 60%;;
+        border-spacing: 5px 3px;
     }
 }

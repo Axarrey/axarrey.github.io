@@ -142,7 +142,7 @@ ul {
 }
 
 .stream-summary-ul li {
-    padding: 3px;
+    padding-bottom: 3px;
 }
 
 .index-stats {

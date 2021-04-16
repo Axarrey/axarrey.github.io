@@ -22,6 +22,56 @@
 
         var x = document.getElementById("your-width");
         x.innerHTML = "your width is " + w + "! Does not update on resize. Reload required.";
+
+        const fullNut = document.createElement("img");
+        fullNut.src = "./resources/fullNut.png";
+        const halfNut = document.createElement("img");
+        halfNut.src = "./resources/halfNut.png";
+        /* :( :( :(  */ 
+        const noNut = document.createElement("img");
+        noNut.src = "./resources/noNut.png";
+
+
+        function addRating(elementID, rating) {
+            let parent = document.getElementById(elementID);
+            parent.width = "200px";
+            parent.height = "200px";
+
+
+            /*let box = document.createElement("div");
+            box.style.display = "block";
+            box.style.justifyItems = "flex-start";
+            let text = document.createElement("span");
+            text.innerText = "Quick Rating: ";
+
+            box.appendChild(text);
+
+            let counter = rating;
+
+            box.appendChild(fullNut);
+            */
+
+            let counter = rating;
+
+            let text = document.createElement("span");
+            text.innerText = "hello there";
+            parent.appendChild(text);
+
+            for (i = 5; i > 0; i--) {
+                if (counter > 0.5) {
+                    parent.appendChild(fullNut);
+                    counter -= 1;
+                } else if (counter == 0.5) {
+                    parent.appendChild(halfNut);
+                    counter -= 1;
+                } else {
+                    parent.appendChild(noNut);
+                }
+            }
+
+            /*parent.appendChild(box);*/
+
+        }
     </script>
     
     <main class="index-main">
@@ -29,10 +79,11 @@
             <picture>
                 <source media="(max-width: 500px)" srcset="resources/ff1_logo_500.png">
                 <source media="(min-width: 501px)" srcset="resources/ff1_logo.png">
-                <img src="resources/ff1_logo.png" alt="Logo of Final Fantasy 1" class="index-img">
+                <img src="resources/ff1_logo.png" alt="Logo of Final Fantasy 1" class="index-img" >
             </picture>
             <div class="index-stats">
-                <table class="index-table">
+                <div id="quick-rating" style="display: flex" onload='addRating("quick-rating", 3)'></div>
+                <!--<table class="index-table">
                     <tr>
                         <td><b>Version:</b></td>
                         <td>PS1, <a href="https://finalfantasy.fandom.com/wiki/Final_Fantasy_Origins" target="_blank">"Origins"</a>, Normal difficulty</td>
@@ -63,11 +114,11 @@
                     </ul>
                 </div>
                 <p class="thoughts-link"><a href="summary_ff1.html" target="_blank">Playthrough Thoughts (!update 21/03/2021)</a></p>
-                <!--<img style="float:right; display:inline" src="resources/card_end.png">-->
+                this was commented out too though <img style="float:right; display:inline" src="resources/card_end.png">-->
             </div>
         </div>
 
-        <div class="grid-logo-text">
+        <div class="grid-logo-text" id="cs">
             <picture>
                 <source media="(max-width: 500px)" srcset="resources/cs1_logo_500.png">
                 <source media="(min-width: 501px)" srcset="resources/cs1_logo.png">

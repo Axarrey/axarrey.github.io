@@ -16,7 +16,7 @@
         <div class="index-header-text">Game Stats & Thoughts</div>
         <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
     </header>
-    <div style="margin: auto; width: 100%; color: white">Supported Width: >300px - <span id="your-width"></span> <a href="https://imgur.com/a/j8DwFLe" style="color: green">Reference images</a></div>
+    <div style="margin: auto; width: 100%; color: white">Supported Width: >300px - <span id="your-width"></span> <!--<a href="https://imgur.com/a/j8DwFLe" style="color: green">Reference images</a>--></div>
     <script>
         var w = window.innerWidth;
 
@@ -34,40 +34,26 @@
 
         function addRating(elementID, rating) {
             let parent = document.getElementById(elementID);
-            parent.width = "200px";
-            parent.height = "200px";
-
-
-            /*let box = document.createElement("div");
-            box.style.display = "block";
-            box.style.justifyItems = "flex-start";
-            let text = document.createElement("span");
-            text.innerText = "Quick Rating: ";
-
-            box.appendChild(text);
 
             let counter = rating;
 
-            box.appendChild(fullNut);
-            */
-
-            let counter = rating;
-
-            let text = document.createElement("span");
-            text.innerText = "hello there";
-            parent.appendChild(text);
+            let text = "Quick Rating:" + "&nbsp";
 
             for (i = 5; i > 0; i--) {
                 if (counter > 0.5) {
-                    parent.appendChild(fullNut);
+                    text += '<img src="resources/fullNut.png" alt="1 whole kupo nut"></img>';
                     counter -= 1;
                 } else if (counter == 0.5) {
-                    parent.appendChild(halfNut);
+                    text += '<img src="resources/halfNut.png" alt="1 whole kupo nut"></img>';
                     counter -= 1;
                 } else {
-                    parent.appendChild(noNut);
+                    text += '<img src="resources/noNut.png" alt="1 whole kupo nut"></img>';
                 }
             }
+
+            parent.innerHTML = ` ${text}`;
+
+
 
             /*parent.appendChild(box);*/
 
@@ -75,47 +61,51 @@
     </script>
     
     <main class="index-main">
-        <div class="grid-logo-text">
-            <picture>
-                <source media="(max-width: 500px)" srcset="resources/ff1_logo_500.png">
-                <source media="(min-width: 501px)" srcset="resources/ff1_logo.png">
-                <img src="resources/ff1_logo.png" alt="Logo of Final Fantasy 1" class="index-img" >
-            </picture>
-            <div class="index-stats">
-                <div id="quick-rating" style="display: flex" onload='addRating("quick-rating", 3)'></div>
-                <!--<table class="index-table">
-                    <tr>
-                        <td><b>Version:</b></td>
-                        <td>PS1, <a href="https://finalfantasy.fandom.com/wiki/Final_Fantasy_Origins" target="_blank">"Origins"</a>, Normal difficulty</td>
-                    </tr>
-                    <tr>
-                        <td><b>Stream-Dates (dd/mm/yyyy):</b></td>
-                        <td>01/03/2021 to 10/03/2021</td>
-                    </tr>
-                    <td><b>Playtime:</b></td>
-                    <td>35h as per last save, </br> 28h 24m stream time</td>
-                    <tr>
-                        <td><b>Completion:</b></td>
-                        <td>Main Story + all chests</td>
-                    </tr>
-                    <tr>
-                        <td><b>Quick Rating:</b></td>
-                        <td>3/5 </td>
-                    </tr>
-                </table>
-                </br>
-                <div class="point-of-interest"><b>Points of Interest:</b>
-                    <ul>
-                        <li>Dungeon Design</li>
-                        <li>Job Balance</li>
-                        <li>Soundtrack</li>
-                        <li>Battle system</li>
-                        <li>Story</li>
-                    </ul>
+        <div class="grid-logo-text" >
+            <span style="background-color: white">
+                <picture>
+                    <!--<source media="(max-width: 500px)" srcset="resources/ff1_logo_500.png">
+                    <source media="(min-width: 501px)" srcset="resources/ff1_logo.png">-->
+                    <img src="resources/ff1_logo_500.png" alt="Logo of Final Fantasy 1" class="index-img" >
+                </picture>
+                <div class="index-stats">
+                
+                    <div id="quick-rating" style="display: flex"></div><script>addRating("quick-rating",3.5);</script>
+                    <!--<table class="index-table">
+                        <tr>
+                            <td><b>Version:</b></td>
+                            <td>PS1, <a href="https://finalfantasy.fandom.com/wiki/Final_Fantasy_Origins" target="_blank">"Origins"</a>, Normal difficulty</td>
+                        </tr>
+                        <tr>
+                            <td><b>Stream-Dates (dd/mm/yyyy):</b></td>
+                            <td>01/03/2021 to 10/03/2021</td>
+                        </tr>
+                        <td><b>Playtime:</b></td>
+                        <td>35h as per last save, </br> 28h 24m stream time</td>
+                        <tr>
+                            <td><b>Completion:</b></td>
+                            <td>Main Story + all chests</td>
+                        </tr>
+                        <tr>
+                            <td><b>Quick Rating:</b></td>
+                            <td>3/5 </td>
+                        </tr>
+                    </table>
+                    </br>
+                    <div class="point-of-interest"><b>Points of Interest:</b>
+                        <ul>
+                            <li>Dungeon Design</li>
+                            <li>Job Balance</li>
+                            <li>Soundtrack</li>
+                            <li>Battle system</li>
+                            <li>Story</li>
+                        </ul>
+                    </div>-->
+                    <p class="thoughts-link"><a href="summary_ff1.html" target="_blank">Playthrough Thoughts (!update 21/03/2021)</a></p>
+                    <!-- <img style="float:right; display:inline" src="resources/card_end.png">-->
+            
                 </div>
-                <p class="thoughts-link"><a href="summary_ff1.html" target="_blank">Playthrough Thoughts (!update 21/03/2021)</a></p>
-                this was commented out too though <img style="float:right; display:inline" src="resources/card_end.png">-->
-            </div>
+            </span>
         </div>
 
         <div class="grid-logo-text" id="cs">
@@ -162,7 +152,7 @@
                 <p class="thoughts-link"><a href="">Playthrough Thoughts</a></p>
                 <!--<img style="float:right" src="resources/card_end.png">-->
             </div>
-        </div>
+        <div>
     </main>
 </body>
 

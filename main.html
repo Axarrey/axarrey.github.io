@@ -23,7 +23,7 @@
         /* window width display */
         var w = window.outerWidth;
         var x = document.getElementById("your-width");
-        x.innerHTML = "your width is " + w + "! Does not update on resize. Reload required.";
+        x.innerHTML = "your width is " + w + "! Does not update on resize. Reload required. If you don't see any images, it may be due to the file format used.";
 
         
         /* global nut elements - not in use*/
@@ -119,11 +119,21 @@
     
     <main class="index-main" id="main">
         <script>
+            /* .webp images cannot be rendered on all browsers yet, but have better compression rate than other raster formats. */            
+            createCard("resources/ff1_logo_500.webp",3,"ff1", true);
+            createCard("resources/cs1_logo_500.webp",3.5,"cs1", false);
+            createCard("resources/xn_logo_500.webp",4,"xn", false);
+            createCard("resources/felghana_logo_500.webp",4.5,"felghana", false);
+            createCard("resources/ktn_zero_logo_500.webp",3.5, "ktn_zero", false);
+            
+
+            /* png images
             createCard("resources/ff1_logo_500.png",3,"ff1", true);
             createCard("resources/cs1_logo_500.png",3.5,"cs1", false);
             createCard("resources/xn_logo_500.png",4,"xn", false);
             createCard("resources/felghana_logo_500.png",4,"felghana", false);
             createCard("resources/ktn_zero_logo_500.png",3.5, "ktn_zero", false);
+            */
         </script>
     </main>
 </body>

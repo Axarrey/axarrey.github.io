@@ -3,6 +3,8 @@
     --font-color: black;
 }
 
+/* NEEDS A TON OF PRUNING TO SEE WHAT IS STILL USED AND SO ON AND SO FORTH LMAO */
+
 /****************************************/
 /******** Header, Avatar and Logo *******/
 
@@ -117,7 +119,7 @@ body {
     height: max-content;
     width: max-content;
     background-color: #bbbbbb;
-    box-shadow: 2px 2px 20px black;
+    
     border-radius: 10px;
     padding: 1rem;*/
 
@@ -127,6 +129,7 @@ body {
 
 .main-card {
     background-color: white; 
+    box-shadow: 2px 2px 20px black;
 
     padding: 1rem; 
     margin: 1rem;

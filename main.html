@@ -16,143 +16,115 @@
         <div class="index-header-text">Game Stats & Thoughts</div>
         <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
     </header>
+    <!-- inline style like below is frowned upon, don't do this. use classes instead-->
     <div style="margin: auto; width: 100%; color: white">Supported Width: >300px - <span id="your-width"></span> <!--<a href="https://imgur.com/a/j8DwFLe" style="color: green">Reference images</a>--></div>
     <script>
-        var w = window.innerWidth;
 
+        /* window width display */
+        var w = window.outerWidth;
         var x = document.getElementById("your-width");
         x.innerHTML = "your width is " + w + "! Does not update on resize. Reload required.";
 
+        
+        /* global nut elements - not in use*/
         const fullNut = document.createElement("img");
-        fullNut.src = "./resources/fullNut.png";
+        fullNut.src = "resources/fullNut.png";
         const halfNut = document.createElement("img");
-        halfNut.src = "./resources/halfNut.png";
-        /* :( :( :(  */ 
+        halfNut.src = "resources/halfNut.png";
         const noNut = document.createElement("img");
-        noNut.src = "./resources/noNut.png";
+        noNut.src = "resources/noNut.png";
 
 
+        /* card creation functions */
         function addRating(elementID, rating) {
+            /* searches for the "text" div created by createCard and sets it as the parent element that will be added onto. */
             let parent = document.getElementById(elementID);
 
-            let counter = rating;
-
+            /* sets actual quick rating text - &nbsp is empty space between quick rating and kupo nuts*/
             let text = "Quick Rating:" + "&nbsp";
 
+            /* creates counter variable that will be used to decide which kind of nut element to add next */
+            let counter = rating;
+
+            /* loop that goes through 5 iterations (5 max nuts), countding down. Nuts added based on current counter. */
             for (i = 5; i > 0; i--) {
                 if (counter > 0.5) {
                     text += '<img src="resources/fullNut.png" alt="1 whole kupo nut"></img>';
                     counter -= 1;
                 } else if (counter == 0.5) {
-                    text += '<img src="resources/halfNut.png" alt="1 whole kupo nut"></img>';
+                    text += '<img src="resources/halfNut.png" alt="1 half kupo nut"></img>';
                     counter -= 1;
                 } else {
-                    text += '<img src="resources/noNut.png" alt="1 whole kupo nut"></img>';
+                    text += '<img src="resources/noNut.png" alt="here be no nut"></img>';
                 }
             }
+            parent.innerHTML = `${text}`;
 
-            parent.innerHTML = ` ${text}`;
+            /* This does NOT work because I need to create multiple copies of an element. This loop simply switches the parent of the nut elements.*/
+            /*for (i = 5; i > 0; i--) {
+                if (counter > 0.5) {
+                    parent.appendChild(fullNut);
+                    counter -= 1;
+                } else if (counter == 0.5) {
+                    parent.appendChild(halfNut);
+                    counter -= 1;
+                } else {
+                    parent.appendChild(noNut);
+                }
+            }*/
+        }
 
+        function createCard(picture_resource_name, rating, name, website_created) {
+            let parent = document.getElementById("main");
 
+            /* creating wrapper for image and text - the white card background, the interior styling and content adjustment, etc. */
+            let toAdd = document.createElement("span");
+            toAdd.className = "main-card";
 
-            /*parent.appendChild(box);*/
+            /* creating the image element, adding path to image, setting alt text and setting style */
+            let img = document.createElement("img");
+            img.src = `${picture_resource_name}`;
+            img.alt = `Logo of ${name}.`;
+            img.className = "index-img";
 
+            /* creating the "quick rating" text box with id fitting the card */
+            let text = document.createElement("div");
+            text.className = "main-card-text-styling";
+            text.id = `${name}`;
+
+            /* adding elements to parent (main) in order from small to high scope (bottom-up) */
+            toAdd.appendChild(img);
+            toAdd.appendChild(text);
+
+            /* creating a link that wraps around the card element, adding class, adding href, adding it to DOM. requires consistent "summary" page naming */
+            if (website_created){
+                let summary_link = document.createElement("a");
+                summary_link.className = "main-card-hyperlink";
+                summary_link.href = `summary_${name}.html`;
+                summary_link.style.display = "flex";
+                summary_link.style.alignSelf = "center";
+                summary_link.appendChild(toAdd);
+                parent.appendChild(summary_link);    
+
+            } else {
+                toAdd.style.display ="flex";
+                toAdd.style.alignSelf = "center";
+                parent.appendChild(toAdd);
+            }
+            
+            /* function call to set kupo nuts rating */
+            addRating(`${name}`, rating);
         }
     </script>
     
-    <main class="index-main">
-        <div class="grid-logo-text" >
-            <span style="background-color: white">
-                <picture>
-                    <!--<source media="(max-width: 500px)" srcset="resources/ff1_logo_500.png">
-                    <source media="(min-width: 501px)" srcset="resources/ff1_logo.png">-->
-                    <img src="resources/ff1_logo_500.png" alt="Logo of Final Fantasy 1" class="index-img" >
-                </picture>
-                <div class="index-stats">
-                
-                    <div id="quick-rating" style="display: flex"></div><script>addRating("quick-rating",3.5);</script>
-                    <!--<table class="index-table">
-                        <tr>
-                            <td><b>Version:</b></td>
-                            <td>PS1, <a href="https://finalfantasy.fandom.com/wiki/Final_Fantasy_Origins" target="_blank">"Origins"</a>, Normal difficulty</td>
-                        </tr>
-                        <tr>
-                            <td><b>Stream-Dates (dd/mm/yyyy):</b></td>
-                            <td>01/03/2021 to 10/03/2021</td>
-                        </tr>
-                        <td><b>Playtime:</b></td>
-                        <td>35h as per last save, </br> 28h 24m stream time</td>
-                        <tr>
-                            <td><b>Completion:</b></td>
-                            <td>Main Story + all chests</td>
-                        </tr>
-                        <tr>
-                            <td><b>Quick Rating:</b></td>
-                            <td>3/5 </td>
-                        </tr>
-                    </table>
-                    </br>
-                    <div class="point-of-interest"><b>Points of Interest:</b>
-                        <ul>
-                            <li>Dungeon Design</li>
-                            <li>Job Balance</li>
-                            <li>Soundtrack</li>
-                            <li>Battle system</li>
-                            <li>Story</li>
-                        </ul>
-                    </div>-->
-                    <p class="thoughts-link"><a href="summary_ff1.html" target="_blank">Playthrough Thoughts (!update 21/03/2021)</a></p>
-                    <!-- <img style="float:right; display:inline" src="resources/card_end.png">-->
-            
-                </div>
-            </span>
-        </div>
-
-        <div class="grid-logo-text" id="cs">
-            <picture>
-                <source media="(max-width: 500px)" srcset="resources/cs1_logo_500.png">
-                <source media="(min-width: 501px)" srcset="resources/cs1_logo.png">
-                <img src="resources/cs1_logo.png" alt="Logo of Cold Steel 1" class="index-img">
-            </picture>
-            <div class="index-stats">
-                <table class="index-table">
-                    <tr>
-                        <td><b>Version:</b></td>
-                        <td>PC, Steam, Nightmare difficulty</td>
-                    </tr>
-                    <tr>
-                        <td><b>Time of Stream (dd/mm/yyyy):</b></td>
-                        <td>27/12/2019 to 13/03/2020</td>
-                    </tr>
-                    <td><b>Playtime:</b></td>
-                    <td>130h 20m as per last save</td>
-                    <tr>
-                        <td><b>Completion:</b></td>
-                        <td>Main Story + some sidequests</td>
-                    </tr>
-                    <tr>
-                        <td><b>Quick Rating:</b></td>
-                        <td>enjoyable but ultimately frustrating in the details/5</td>
-                    </tr>
-                </table>
-                </br>
-                <div class="point-of-interest"><b>Points of Interest:</b>
-                    <ul>
-                        <li>Dungeon Design</li>
-                        <li>Job Balance</li>
-                        <li>Soundtrack</li>
-                        <li>Battle system</li>
-                        <li>Story</li>
-                        <li>random,</li>
-                        <li>test,</li>
-                        <li>stuff</li>
-                        <li>heyo</li>
-                    </ul>
-                </div>
-                <p class="thoughts-link"><a href="">Playthrough Thoughts</a></p>
-                <!--<img style="float:right" src="resources/card_end.png">-->
-            </div>
-        <div>
+    <main class="index-main" id="main">
+        <script>
+            createCard("resources/ff1_logo_500.png",3,"ff1", true);
+            createCard("resources/cs1_logo_500.png",3.5,"cs1", false);
+            createCard("resources/xn_logo_500.png",4,"xn", false);
+            createCard("resources/felghana_logo_500.png",4,"felghana", false);
+            createCard("resources/ktn_zero_logo_500.png",3.5, "ktn_zero", false);
+        </script>
     </main>
 </body>
 

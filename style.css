@@ -56,12 +56,21 @@ body {
 
 /* Setting boundaries as well as general content alignment */
 .index-main {
-    display: flex;
-    flex-direction: row;
-    flex-flow:row; /*new design 18.03.2021*/
-    /*flex-direction: column;  old design */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-template-rows: min-content;
+    align-content: center;
     justify-content: center;
     margin: 1em 3em;
+
+
+    /*display: flex;
+    flex-direction: row;
+    flex-flow:row; *//*new design 18.03.2021*/
+    /*flex-direction: column;  old design */
+    /*justify-content: center;
+    
+    flex-wrap:wrap;*/
 }
 
 .summary-main {
@@ -79,6 +88,13 @@ body {
     padding-bottom: 2rem;
 }
 
+.main-card-hyperlink {
+    color: black;
+    text-decoration: none;
+    width: min-content;
+    height: min-content;
+
+}
 
 
 /* Main Grid for keeping video left & logo + text right */
@@ -109,6 +125,27 @@ body {
 
 /* needs comments and general categorization */
 
+.main-card {
+    background-color: white; 
+
+    padding: 1rem; 
+    margin: 1rem;
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-items: center; 
+    
+    border-radius: 5px;
+
+    height: min-content;
+    width: min-content;
+}
+
+.main-card-text-styling {
+    display: flex;
+    justify-content: center;
+}
 
 .index-table {
     margin-left: 0.5rem;
@@ -163,7 +200,7 @@ li {
 .thoughts-link {
     text-align: center;
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 0.5rem;
     letter-spacing: 1px;
     
 }

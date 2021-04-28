@@ -81,15 +81,37 @@ body {
     color: white;
 }
 
+.summary-video-stats-container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
 .summary-grid {
     display: grid;
-    grid-template-columns: 550px auto;
+    grid-template-columns: 640px auto;
     gap: 2rem;
-    border-bottom: 2px solid black;
     border-radius: 3px;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
+.summary-table {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    text-align: left;
+   
+}
+
+.summary-table td {
+    letter-spacing: 1px;
+    vertical-align: top;
+}
+
+.summary-stats {
+    width: auto;
+    align-self: center;
+}
 .main-card-hyperlink {
     color: black;
     text-decoration: none;
@@ -107,21 +129,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    /* old design */
-    /*display: grid;
-
-    grid-template-rows: max-content;
-    grid-template-columns: minmax(0,400px);
-    align-items: flex-start;
-    justify-items: center;
-    margin: 0.5rem 0.5rem;
-    height: max-content;
-    width: max-content;
-    background-color: #bbbbbb;
-    
-    border-radius: 10px;
-    padding: 1rem;*/
 
 }
 
@@ -150,17 +157,6 @@ body {
     justify-content: center;
 }
 
-.index-table {
-    margin-left: 0.5rem;
-    border-collapse: separate;
-    border-spacing: 0px 3px;
-    text-align: left;
-}
-
-.index-table td {
-    letter-spacing: 1px;
-    vertical-align: top;
-}
 
 
 .index-video-container {
@@ -176,8 +172,8 @@ body {
 
 ul {
     list-style-image: url('resources/Cursor.gif');
-    margin-top: 0.2rem;
     padding-left: 30px;
+    margin-bottom: 0;
 }
 
 .stream-summary-ul {
@@ -188,9 +184,6 @@ ul {
     padding-bottom: 3px;
 }
 
-.index-stats {
-    width: auto;
-}
 
 li {
     letter-spacing: 1px;
@@ -298,11 +291,5 @@ li {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-
-    .index-table {
-        width: 60%;;
-        border-spacing: 5px 3px;
     }
 }

@@ -24,53 +24,87 @@
     </script>
 
     <main class="summary-main">
-        <div class="summary-grid">
-            <div class="summary-logo-video">
-                <picture>
-                    <source media="(max-width: 500px)" srcset="resources/ff1_logo_500.png">
-                    <source media="(min-width: 501px)" srcset="resources/ff1_logo.png">
-                    <img src="resources/ff1_logo.png" alt="Logo of Final Fantasy 1" class="index-img">
-                </picture>
+        <div class = "summary-video-stats-container">
+            <div class="summary-grid">
+                <div class="summary-logo-video">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="resources/ff1_logo_500.png">
+                        <source media="(min-width: 501px)" srcset="resources/ff1_logo.png">
+                        <img src="resources/ff1_logo.png" alt="Logo of Final Fantasy 1" class="index-img">
+                    </picture>
 
-                <div class="index-video-container">
-                    <div>
-                        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-                        <div id="50"></div>
-                        <script type="text/javascript">
-                            var options = {
-                                width: 500,
-                                height: 281,
-                                autoplay: false,
-                                collection: "7xLzsX4DahZdRQ",
-                            };
-                            var player = new Twitch.Player("50", options);
-                            player.setVolume(0.5);
-                        </script>
+                    <div class="index-video-container">
+                        <div>
+                            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                            <div id="50"></div>
+                            <script type="text/javascript">
+                                var options = {
+                                    width: 624,
+                                    height: 351,
+                                    autoplay: false,
+                                    collection: "7xLzsX4DahZdRQ",
+                                };
+                                var player = new Twitch.Player("50", options);
+                                player.setVolume(0.5);
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-stats">
+                    <table class="summary-table">
+                        <tr>
+                            <td><b>Version:</b></td>
+                            <td>PS1, <a href="https://finalfantasy.fandom.com/wiki/Final_Fantasy_Origins" target="_blank" style="color: aquamarine">"Origins"</a>, Normal difficulty</td>
+                        </tr>
+                        <tr>
+                            <td><b>Stream-Dates:</b></td>
+                            <td>01/03/2021 to 10/03/2021</td>
+                        </tr>
+                        <td><b>Playtime:</b></td>
+                        <td>35h as per last save, </br> 28h 24m stream time</td>
+                        <tr>
+                            <td><b>Completion:</b></td>
+                            <td>Main Story + all chests</td>
+                        </tr>
+                        <tr>
+                            <td><b>Quick Rating:</b></td>
+                            <td>3/5 KupoNuts</td>
+                        </tr>
+                    </table>
+                    </br>
+                    <div class="point-of-interest"><b>Points of Interest:</b>
+                        <ul>
+                            <li>Dungeon Design</li>
+                            <li>Job Balance</li>
+                            <li>Soundtrack</li>
+                            <li>Battle system</li>
+                            <li>Story</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="Stream Summary">
-                <h2>Stream Summary - Some fun chats!</h2>
-                <ul class="stream-summary-ul">
-                    <li>Starting out, people mentioned playing FF14 without having played any or barely any other Final Fantasies before! Just a surprise to me tbh. Where does the interest come from?</li>
-                    <li>We had a few small conversations around a chat-comment stating that Final Fantasies seem/are generic, and we ended up talking a little bit about how broad the series is in terms of appeal and how a lot of them are appreciably different from each other in terms of combat mechanics or character builds. Also discussed by folks: Main character looks, personalities, etc. Are Cloud and Tidus the same person?</li>
-                    <li>Bike driving lessons in the UK seem lethal. Driving on a 2 wheeled death machine on your first lesson practically without any real assistance? Thanks for the scares, Jimmy.</li>
-                    <li>Illforgetthisname mentioned that Final Fantasies 9, 10, and 11 were all announced on the same day! After a quick google, it apparently happened at a “Square Millenium Festival” on the first of February 2000. <a href="https://www.ign.com/articles/2000/02/01/square-millennium-event-final-fantasy-ix-x-and-xi-revealed" target="_blank" style="color: aquamarine">Article</a> </li>
-                    <li>Yuho’s Divinity: Original Sin 2 story. Will he and his buddy ever get to leave Reaper’s Coast?</li>
-                    <li>Taylor & Peebs talked about how they adore returning series conventions - Nostalgia bait incarnate or are they just all damn good designs? My heart wants the latter to be true.</li>
-                    <li>Boris mentioned how to raise weapon skills in FF2 easily - by equipping a shield, attacking with it (which does no damage to enemies) and then switching it back to the weapon at the end of the fight. Thanks!</li>
-                    <li>Whisperdraw talked a lot of interesting stuff about fighting games - random stun amount of attacks in Street Fighter 2, no stun gauge to gauge stun progress, how Mortal Kombat moved the “stun” to the end of the fight as a victory thing with Fatalities. He also mentioned that, to him, “combat is the lens through which you can focus your energy on improvement”, which I understood to mean not just focusing on improvement in the game itself to get better at it for the sake of it, but rather simply wanting to focus your own energy on the thought of improvement in general (as in, not limited to the game), which makes a lot of sense to me given that fighting games are nothing but improvement over a long period of time. Thank you for that insight!</li>
-                    <li>The story of Vii’s brother deleting their save of FF1 so they could never get very far shall forever be immortalized here. Rest in peace, progress!</li>
-                    <li>We found out Yuho and Profoundbadness are actually the same person, somehow. </li>
-                    <li>Squaerio mentioned that, in certain games, there is missmatch between a spell/skill created around a character's class/personality/character and how useful it actually is. A worthless skill special to a character can be a noteable design flaw.</li>
-                    <li>Thordoesathing returns to Twitch to be kind to everyone! Thanks again for all those gifts!</li>
-                    <li>Zebobz and Profoundbadness told me about how D&D spells work - how there’s cantrips that can be cast without the use of spell slots, how spells can be cast with higher slots to make the effect stronger (by adding more dice to the roll the higher the slot is, etc.). They also mentioned how certain classes in D&D are made more diverse by different sub-classes, or how there’s a ton of utility abilities that can be roleplayed with, or how JRPGs could use a major/minor actions system - just a generally enjoyable conversation about D&D and its applications - thanks guys! </li>
-                    <li>According to Illforgetthisname, the INT stat in this game is actually broken! </li>
-                    <li>Portablejerkops rightfully pointed out that the casting animations in this game look like a blowjob animation! Sorry, had to be in here.</li>
-                </ul>
+        </div>
 
-                <div></div>
-            </div>
+        <div class="Stream Summary">
+            <h2>Stream Summary - Some fun chats!</h2>
+            <ul class="stream-summary-ul">
+                <li>Starting out, people mentioned playing FF14 without having played any or barely any other Final Fantasies before! Just a surprise to me tbh. Where does the interest come from?</li>
+                <li>We had a few small conversations around a chat-comment stating that Final Fantasies seem/are generic, and we ended up talking a little bit about how broad the series is in terms of appeal and how a lot of them are appreciably different from each other in terms of combat mechanics or character builds. Also discussed by folks: Main character looks, personalities, etc. Are Cloud and Tidus the same person?</li>
+                <li>Bike driving lessons in the UK seem lethal. Driving on a 2 wheeled death machine on your first lesson practically without any real assistance? Thanks for the scares, Jimmy.</li>
+                <li>Illforgetthisname mentioned that Final Fantasies 9, 10, and 11 were all announced on the same day! After a quick google, it apparently happened at a “Square Millenium Festival” on the first of February 2000. <a href="https://www.ign.com/articles/2000/02/01/square-millennium-event-final-fantasy-ix-x-and-xi-revealed" target="_blank" style="color: aquamarine">Article</a> </li>
+                <li>Yuho’s Divinity: Original Sin 2 story. Will he and his buddy ever get to leave Reaper’s Coast?</li>
+                <li>Taylor & Peebs talked about how they adore returning series conventions - Nostalgia bait incarnate or are they just all damn good designs? My heart wants the latter to be true.</li>
+                <li>Boris mentioned how to raise weapon skills in FF2 easily - by equipping a shield, attacking with it (which does no damage to enemies) and then switching it back to the weapon at the end of the fight. Thanks!</li>
+                <li>Whisperdraw talked a lot of interesting stuff about fighting games - random stun amount of attacks in Street Fighter 2, no stun gauge to gauge stun progress, how Mortal Kombat moved the “stun” to the end of the fight as a victory thing with Fatalities. He also mentioned that, to him, “combat is the lens through which you can focus your energy on improvement”, which I understood to mean not just focusing on improvement in the game itself to get better at it for the sake of it, but rather simply wanting to focus your own energy on the thought of improvement in general (as in, not limited to the game), which makes a lot of sense to me given that fighting games are nothing but improvement over a long period of time. Thank you for that insight!</li>
+                <li>The story of Vii’s brother deleting their save of FF1 so they could never get very far shall forever be immortalized here. Rest in peace, progress!</li>
+                <li>We found out Yuho and Profoundbadness are actually the same person, somehow. </li>
+                <li>Squaerio mentioned that, in certain games, there is missmatch between a spell/skill created around a character's class/personality/character and how useful it actually is. A worthless skill special to a character can be a noteable design flaw.</li>
+                <li>Thordoesathing returns to Twitch to be kind to everyone! Thanks again for all those gifts!</li>
+                <li>Zebobz and Profoundbadness told me about how D&D spells work - how there’s cantrips that can be cast without the use of spell slots, how spells can be cast with higher slots to make the effect stronger (by adding more dice to the roll the higher the slot is, etc.). They also mentioned how certain classes in D&D are made more diverse by different sub-classes, or how there’s a ton of utility abilities that can be roleplayed with, or how JRPGs could use a major/minor actions system - just a generally enjoyable conversation about D&D and its applications - thanks guys! </li>
+                <li>According to Illforgetthisname, the INT stat in this game is actually broken! </li>
+                <li>Portablejerkops rightfully pointed out that the casting animations in this game look like a blowjob animation! Sorry, had to be in here.</li>
+            </ul>
         </div>
         <h2>Game Thoughts</h2>
 

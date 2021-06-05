@@ -81,6 +81,20 @@ body {
     color: white;
 }
 
+.summary-text-area {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 20px;
+}
+
+.stream-summary-ul {
+
+}
+
+.stream-summary-ul li {
+    padding-bottom: 25px;
+}
+
 .summary-video-stats-container {
     display: flex;
     justify-content: center;
@@ -176,14 +190,6 @@ ul {
     margin-bottom: 0;
 }
 
-.stream-summary-ul {
-
-}
-
-.stream-summary-ul li {
-    padding-bottom: 3px;
-}
-
 
 li {
     letter-spacing: 1px;
@@ -212,6 +218,12 @@ li {
 }
 
 @media screen and (max-width: 1450px) {
+    
+    .summary-text-area {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .summary-main {
         display: flex;
         flex-direction: column;
@@ -226,7 +238,6 @@ li {
 }
 
 @media screen and (max-width: 950px) {
-
 
     .index-main {
         display: flex;

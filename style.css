@@ -8,6 +8,10 @@
 /****************************************/
 /******** Header, Avatar and Logo *******/
 
+html {
+    overflow-y: scroll;
+}
+
 .index-header-container {
     display: grid;
     grid-template-areas: "avatar text logo"; 

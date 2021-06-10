@@ -116,8 +116,8 @@
             addRating(`${name}`, rating);
         }
     </script>
-    
-    <main class="index-main" id="main">
+    <main style="display: flex; flex-direction: column; margin-top: 1rem; margin-left: 3rem; margin-right: 3rem;">
+    <section class="index-main" id="main">
         <script>
             /* .webp images cannot be rendered on all browsers yet, but have better compression rate than other raster formats. */            
             createCard("resources/ff1_logo_500.webp",3,"ff1", true);
@@ -135,7 +135,17 @@
             createCard("resources/ktn_zero_logo_500.png",3.5, "ktn_zero", false);
             */
         </script>
-    </main>
+    </section>
+    <section>
+        <div>Other stuff:</div>
+        <details style="color: white">
+            <summary>Maybe Games</summary>
+            Games that I would like to play (again) eventually, but might also want to stream. If you'd like, you can let me know if you want to see any of these via votes using Spicy Gil (channel points). <a href="https://axarrey.github.io/maybe_games.html" style="color: aquamarine">Link to the games</a>
+             <br><br>
+            System stolen from <a href="https://www.twitch.tv/profoundbadness" target="_blank" style="color: aquamarine">Profoundbadness</a>!
+        </details>
+    </section>
+</main>
 </body>
 
 </html>

@@ -79,6 +79,16 @@ body {
     flex-wrap:wrap;*/
 }
 
+.maybe-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 620px);
+    grid-template-rows: min-content;
+    align-content: center;
+    justify-content: center;
+    margin: 1em 3em;
+
+}
+
 .summary-main {
     margin: 1rem 3rem;
     justify-content: left;
@@ -184,8 +194,12 @@ body {
 
 .index-img {
    justify-self: left;
-   
    padding-bottom: 1rem;
+}
+
+.maybe-img {
+    justify-self: center;
+    align-self: center;
 }
 
 ul {

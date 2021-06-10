@@ -81,12 +81,30 @@ body {
 
 .maybe-main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 620px);
+    grid-template-columns: repeat(auto-fill, 638px);
     grid-template-rows: min-content;
     align-content: center;
     justify-content: center;
     margin: 1em 3em;
 
+}
+
+.maybe-item-display {
+    display: grid;
+    grid-template-columns: auto 320px;
+    grid-template-rows: 350px;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.maybe-text-blurb {
+    align-self: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 .summary-main {
@@ -307,6 +325,21 @@ li {
     body {
         font-size: 80%;
     }
+
+    .maybe-text-blurb {
+        width: 350px;
+    }
+
+    .maybe-item-display {
+        display: flex;
+        grid-template-columns: min-content;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        padding: 1.5rem;
+        border-bottom: 1px solid black;
+    }
+    
 
     .index-main {
         margin: 1em 1em;

@@ -18,14 +18,7 @@
 
                 let encapsulatingElement = document.createElement('div');
                 
-                encapsulatingElement.style.display = "grid";
-                encapsulatingElement.style.gridTemplateColumns = "auto 320px";
-                encapsulatingElement.style.gridTemplateRows = "350px";
-                encapsulatingElement.style.gridGap = "1rem";
-                encapsulatingElement.style.justifyContent = "center";
-                encapsulatingElement.style.alignItems = "center";
-                encapsulatingElement.style.padding = "1.5rem";
-                encapsulatingElement.style.borderBottom = "1px solid black"
+                encapsulatingElement.className = "maybe-item-display";
 
                 parent.append(encapsulatingElement);
 
@@ -36,15 +29,12 @@
                 encapsulatingElement.append(maybeImage);
 
                 let maybeTextBlurb = document.createElement('div');
+                maybeTextBlurb.className = "maybe-text-blurb";
                 maybeTextBlurb.innerHTML = 
                         `<div style="font-weight: bold; margin-bottom: 0.5rem">${name}</div>
                         <div>${textblurb}</div>`;
 
-                maybeTextBlurb.style.alignSelf ="center";
-                maybeTextBlurb.style.height = "max-content";
-                maybeTextBlurb.style.backgroundColor = "rgba(255,255,255)";
-                maybeTextBlurb.style.borderRadius = "10px";
-                maybeTextBlurb.style.padding = "1rem";
+                
                 encapsulatingElement.append(maybeTextBlurb);
 
 

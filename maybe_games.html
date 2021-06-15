@@ -58,8 +58,11 @@
 
                     /* Nut image + vote count */
                     let maybeVoteContainer = document.createElement('div');
-                    maybeVoteContainer.style.display = "flex";
+                    maybeVoteContainer.style.display = "grid";
+                    maybeVoteContainer.style.gridTemplateColumns = "70px 22px";
+                    maybeVoteContainer.style.justifyContent = "end";
                     maybeVoteContainer.style.position = "relative";
+                    maybeVoteContainer.style.textAlign = "right";
                     maybeVoteContainer.style.float = "right";
                     maybeVoteContainer.style.top = "0.5em";
                     maybeVoteContainer.style.right = "-0.2em";

@@ -24,7 +24,7 @@
                     .then(value => {
                         return value.json();
                     }).then(value => {
-                        for (let item in value) {
+                        for (let item in value.games) {
                             createMaybeGame(item.image,item.textblurb, item.name, item.value);
                         }  
                     }

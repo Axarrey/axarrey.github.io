@@ -1,4 +1,4 @@
-[
+{ "games": [
     {
         "name": "Valkyrie Profile: Lenneth",
         "textblurb": "Playthrough on hard difficulty, ending A. The game is an absolute classic and predecessor to one of my favourite games. Still has that cool combo system its successor also has. <br><br> Haven't played this one in a while, but would love to again.",
@@ -53,5 +53,5 @@
         "textblurb": "My first Star Ocean game, and apparently one of the best ones! Spoiler alert: This is another Tri-Ace franchise and that means it has certain qualities to it: Namely, an enjoyable combat system with a nice soundtrack to accompany it.<br><br> Story-wise, it's a regular JRPG story set in space, but you can decide who the protagonist is. With the 'maybe game' vote you can specify either Claude or Rena as protag. If empty, my choice.",
         "image": "ffxiii_lr.webp",
         "votes": 1
-    }
-]
+    }]
+}

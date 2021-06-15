@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Valkyrie Profile: Lenneth",
+        "textblurb": "Playthrough on hard difficulty, ending A. The game is an absolute classic and predecessor to one of my favourite games. Still has that cool combo system its successor also has. <br><br> Haven't played this one in a while, but would love to again.",
+        "image": "vp1_lenneth.webp",
+        "votes": 0
+    },
+
+    {
+        "name": "Valkyrie Profile 2: Silmeria",
+        "textblurb": "Continuing the low level playthrough, possibly into Seraphic Gate or higher NG+s to see what's up. If NG+ happens, watch cutscenes once and skip on NG+s. <br><br>One of my favourite battle systems in any JRPG ever (VP1 but better), and I would love to know it even better. Gameplay heavy stream.",
+        "image": "vp2_silmeria.webp",
+        "votes": 0
+    },
+
+    {
+        "name": "Valkyrie Profile: Covenant of the Plume",
+        "textblurb": "Ending A, NG file (no NG+ carry-overs), no plume, 200% sin. Most depressing Valkyrie Profile game, some very enjoyable dialogue to read.<br><br> Possibly extremely repetitive strategies to employ to  get to 200%. Aim of this playthrough is to find out.",
+        "image": "vp_cotp.webp",
+        "votes": 0
+    },
+
+    {
+        "name": "Suikoden Tactics",
+        "textblurb": "A game that only 5 people have played. The sequel to Suikoden 4, probably the most disliked one out of the entire series (and probably why nobody has played this).<br><br> I remember this being an enjoyable Tactics experience however, with some neat area effects (elements on ground interact with character standing on tile, etc.) Would enjoy a revisit!",
+        "image": "suikoden_tactics.webp",
+        "votes": 4
+    },
+
+    {
+        "name": "Breath of Fire 3",
+        "textblurb": "I don't remember much about this game, other than Rei being an absolute bro and the fishing minigame owning. I want to revisit it because a) it's been a while and I remember enjoying it and b) it's a Capcom RPG. Don't get a whole lot of those. <br><br>Possibly Dragon Quarter (BoF4) some time after this.",
+        "image": "bof3.webp",
+        "votes": 0
+    },
+
+    {
+        "name": "Final Fantasy Crystal Chronicles (Remastered)",
+        "textblurb": "It didn't work out on release, but I'd like to give this another shot, maybe as an 'end of stream' game. Great soundtrack, copy-pasted art from FF9, cute moogles, cute world map, cute everything tbh. <br><br>Original Morning Sky is better, but what can ya do.",
+        "image": "ffcc_remastered.webp",
+        "votes": 1
+    },
+
+    {
+        "name": "Final Fantasy XIII-3 Lightning Returns",
+        "textblurb": "If Taylor isn't gonna play it again, I will. Great gameplay & soundtrack, you can tell that Tri-Ace helped with this. <br><br> More action-y than its predecessors. Paradigm system is still there, but now you only play as one character and change outfits instead, each with its own ATB bar. ATB is now a resource that charges like you'd expect it to, and is used like MP. Frequent switching to resource manage/recover or to set up combos. Just a joy to play.",
+        "image": "ffxiii_lr.webp",
+        "votes": 2
+    },
+
+    {
+        "name": "Star Ocean Second Evolution",
+        "textblurb": "My first Star Ocean game, and apparently one of the best ones! Spoiler alert: This is another Tri-Ace franchise and that means it has certain qualities to it: Namely, an enjoyable combat system with a nice soundtrack to accompany it.<br><br> Story-wise, it's a regular JRPG story set in space, but you can decide who the protagonist is. With the 'maybe game' vote you can specify either Claude or Rena as protag. If empty, my choice.",
+        "image": "ffxiii_lr.webp",
+        "votes": 1
+    }
+]

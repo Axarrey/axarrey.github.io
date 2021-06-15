@@ -19,17 +19,17 @@
             <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
 
             <script type="module">
-                try {
-                    const response = await fetch("./resources/maybe_game_text/maybe_games.json");
-                    const rawData = await response.json();
-
-                    for (let item in rawData) {
-                        createMaybeGame(item.image,item.textblurb, item.name, item.value);
-                    };
-
-                } catch(error) {
-                    alert("Maybe games failed to load. Please try reloading!");
-                }
+        
+                const response = await fetch("./resources/maybe_game_text/maybe_games.json")
+                    .then(value => {
+                        return value.json();
+                    }).then(value => {
+                        for (let item in value) {
+                            createMaybeGame(item.image,item.textblurb, item.name, item.value);
+                        }  
+                    }
+                );
+                
                 
                 function createMaybeGame(image, textblurb, name, votes) {
                     let parent = document.getElementById("main");

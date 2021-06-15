@@ -19,11 +19,16 @@
             <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
 
             <script type="module">
-                import * as data from "./resources/maybe_game_text/maybe_games.json";
-                const rawData = data.json();
+                try {
+                    const response = await fetch("./resources/maybe_game_text/maybe_games.json");
+                    const rawData = await response.json();
 
-                for (let item in rawData) {
-                    console.log("hello");
+                    for (let item in rawData) {
+                        createMaybeGame(item.image,item.textblurb, item.name, item.value);
+                    };
+
+                } catch(error) {
+                    alert("Maybe games failed to load. Please try reloading!");
                 }
                 
                 function createMaybeGame(image, textblurb, name, votes) {

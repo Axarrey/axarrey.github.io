@@ -15,7 +15,7 @@
     <header class="index-header-container">
         <div><a href="https://twitch.tv/axarrey" target="_blank"><img src="resources/Sleep-Big.png" class="avatar"></a>
         </div>
-        <div class="index-header-text">Game Stats & Thoughts</div>
+        <div class="index-header-text">Main Page</div>
         <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
     </header>
     <!-- inline style like below is frowned upon, don't do this. use classes instead-->
@@ -112,35 +112,37 @@
         }
     </script>
     <main style="display: flex; flex-direction: column; margin-top: 1rem; margin-left: 3rem; margin-right: 3rem;">
-    <section class="index-main" id="main">
-        <script>
-            /* .webp images cannot be rendered on all browsers yet, but have better compression rate than other raster formats. */            
-            createCard("resources/ff1_logo_500.webp",3,"ff1", true);
-            createCard("resources/ff2_logo_500.webp", 1.5, "ff2", false);
-            createCard("resources/cs1_logo_500.webp",3.5,"cs1", false);
-            createCard("resources/xn_logo_500.webp",4,"xn", false);
-            createCard("resources/felghana_logo_500.webp",4.5,"felghana", false);
-            createCard("resources/ktn_zero_logo_500.webp",3.5, "ktn_zero", false);
-            
+        <h2 style="color: white">Completed Games:</h2>
 
-            /* png images
-            createCard("resources/ff1_logo_500.png",3,"ff1", true);
-            createCard("resources/cs1_logo_500.png",3.5,"cs1", false);
-            createCard("resources/xn_logo_500.png",4,"xn", false);
-            createCard("resources/felghana_logo_500.png",4,"felghana", false);
-            createCard("resources/ktn_zero_logo_500.png",3.5, "ktn_zero", false);
-            */
-        </script>
-    </section>
-    <section>
-        <div style="color: white">Other stuff:</div>
-        <details style="color: white">
-            <summary>Maybe Games</summary>
-            Games that I would like to play (again) eventually, but might also want to stream. If you'd like, you can let me know if you want to see any of these via votes using Spicy Gil (channel points). <a href="./maybe_games.html" style="color: aquamarine">Link to the games</a>
-             <br><br>
-            System stolen from <a href="https://www.twitch.tv/profoundbadness" target="_blank" style="color: aquamarine">Profoundbadness</a>!
-        </details>
-    </section>
+        <section class="index-main" id="main">
+            <script>
+                /* .webp images cannot be rendered on all browsers yet, but have better compression rate than other raster formats. */            
+                createCard("resources/ff1_logo_500.webp",3,"ff1", true);
+                createCard("resources/ff2_logo_500.webp", 1.5, "ff2", false);
+                createCard("resources/cs1_logo_500.webp",3.5,"cs1", false);
+                createCard("resources/xn_logo_500.webp",4,"xn", false);
+                createCard("resources/felghana_logo_500.webp",4.5,"felghana", false);
+                createCard("resources/ktn_zero_logo_500.webp",3.5, "ktn_zero", false);
+                
+
+                /* png images
+                createCard("resources/ff1_logo_500.png",3,"ff1", true);
+                createCard("resources/cs1_logo_500.png",3.5,"cs1", false);
+                createCard("resources/xn_logo_500.png",4,"xn", false);
+                createCard("resources/felghana_logo_500.png",4,"felghana", false);
+                createCard("resources/ktn_zero_logo_500.png",3.5, "ktn_zero", false);
+                */
+            </script>
+        </section>
+        <section>
+            <h2 style="color: white">Other stuff:</h2>
+            <details style="color: white">
+                <summary>Maybe Games</summary>
+                Games that I would like to play (again) eventually, but might also want to stream. If you'd like, you can let me know if you want to see any of these via votes using Spicy Gil (channel points). <a href="./maybe_games.html" style="color: aquamarine">Link to the games</a>
+                <br><br>
+                System stolen from <a href="https://www.twitch.tv/profoundbadness" target="_blank" style="color: aquamarine">Profoundbadness</a>!
+            </details>
+        </section>
 </main>
 </body>
 

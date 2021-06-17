@@ -33,6 +33,8 @@
                     .then(json => {
                         this.data = json;
                         json.games.forEach(item => createMaybeGame(item.image, item.textblurb, item.name, item.votes));
+                    }).catch(function (e) {
+                        throw new Error("Error type: " + e);
                     })                
                 }
 

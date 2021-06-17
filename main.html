@@ -19,15 +19,8 @@
         <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
     </header>
     <!-- inline style like below is frowned upon, don't do this. use classes instead-->
-    <div style="margin: auto; width: 100%; color: white">Supported Width: >300px - <span id="your-width"></span> <!--<a href="https://imgur.com/a/j8DwFLe" style="color: green">Reference images</a>--></div>
     <script>
 
-        /* window width display */
-        var w = window.outerWidth;
-        var x = document.getElementById("your-width");
-        x.innerHTML = "your width is " + w + "! Does not update on resize. Reload required. If you don't see any images, it may be due to the file format used.";
-
-        
         /* global nut elements - not in use*/
         const fullNut = document.createElement("img");
         fullNut.src = "resources/fullNut.png";

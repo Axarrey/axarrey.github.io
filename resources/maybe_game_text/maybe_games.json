@@ -1,4 +1,26 @@
 { "games": [
+
+    {
+        "name": ".hack//Infection",
+        "textblurb": "First of a quartet of games, this is a 'game within a game' deal, where the protagonist plays an MMORPG that is beginning to affect players in the real world. The anime released alongside this is one of the first examples of Isekai that I can think of. That should tell you everything you need to know!<br><br> Note: If this game happens, it will not be a full playthrough. Very menu heavy in a not-fun way, but I'd like to show it off for a bit as a novelty game (for the time, and for me)",
+        "image": "hack_infection.webp",
+        "votes": 0
+    },
+
+    {
+        "name": "The Legend of Heroes: Trails from Zero",
+        "textblurb": "You know what this game is! I already played this on stream up until about halfway through, and would be happy to continue where I left off, perhaps creating a summary of what has happened thus far, OR start anew, as it has been quite a while. <br><br><em>Let me know which one you'd prefer.</em><br><br>Note: Trails to Azure will almost certainly follow after this.",
+        "image": "trails_from_zero.webp",
+        "votes": 0
+    },
+
+    {
+        "name": "Ys Origin",
+        "textblurb": "Playthrough on Nightmare, as secret character. My favourite Ys game due to generally fun bosses, consistently good soundtrack and different playable characters.<br><br>Still need those steam achievements, and I'd love to finish that off soon.",
+        "image": "ys_origin.webp",
+        "votes": 0
+    },
+
     {
         "name": "Valkyrie Profile: Lenneth",
         "textblurb": "Playthrough on hard difficulty, ending A. The game is an absolute classic and predecessor to one of my favourite games. Still has that cool combo system its successor also has. <br><br> Haven't played this one in a while, but would love to again.",
@@ -21,17 +43,31 @@
     },
 
     {
+        "name": "Super Mario Odyssey",
+        "textblurb": "The odd game out. I've been lowkey itching to play a 3D platformer and I still only barely touched this one. This one is apparently real gosh darn good, so I'd like to give it a go sometime.",
+        "image": "sm_odyssey.webp",
+        "votes": 0
+    },
+
+    {
         "name": "Suikoden Tactics",
         "textblurb": "A game that only 5 people have played. The sequel to Suikoden 4, probably the most disliked one out of the entire series (and probably why nobody has played this).<br><br> I remember this being an enjoyable Tactics experience however, with some neat area effects (elements on ground interact with character standing on tile, etc.) Would enjoy a revisit!",
         "image": "suikoden_tactics.webp",
-        "votes": 4
+        "votes": 31
+    },
+
+    {
+        "name": "Final Fantasy XIII-3 Lightning Returns",
+        "textblurb": "If Taylor isn't gonna play it again, I will. Great gameplay & soundtrack, you can tell that Tri-Ace helped with this. <br><br> More action-y than its predecessors. Paradigm system is still there, but now you only play as one character and change outfits instead, each with its own ATB bar. ATB is now a resource that charges like you'd expect it to, and is used like MP. Frequent switching to resource manage/recover or to set up combos. Just a joy to play.",
+        "image": "ffxiii_lr.webp",
+        "votes": 14
     },
 
     {
         "name": "Breath of Fire 3",
         "textblurb": "I don't remember much about this game, other than Rei being an absolute bro and the fishing minigame owning. I want to revisit it because a) it's been a while and I remember enjoying it and b) it's a Capcom RPG. Don't get a whole lot of those. <br><br>Possibly Dragon Quarter (BoF4) some time after this.",
         "image": "bof3.webp",
-        "votes": 0
+        "votes": 11
     },
 
     {
@@ -42,16 +78,9 @@
     },
 
     {
-        "name": "Final Fantasy XIII-3 Lightning Returns",
-        "textblurb": "If Taylor isn't gonna play it again, I will. Great gameplay & soundtrack, you can tell that Tri-Ace helped with this. <br><br> More action-y than its predecessors. Paradigm system is still there, but now you only play as one character and change outfits instead, each with its own ATB bar. ATB is now a resource that charges like you'd expect it to, and is used like MP. Frequent switching to resource manage/recover or to set up combos. Just a joy to play.",
-        "image": "ffxiii_lr.webp",
-        "votes": 2
-    },
-
-    {
         "name": "Star Ocean Second Evolution",
         "textblurb": "My first Star Ocean game, and apparently one of the best ones! Spoiler alert: This is another Tri-Ace franchise and that means it has certain qualities to it: Namely, an enjoyable combat system with a nice soundtrack to accompany it.<br><br> Story-wise, it's a regular JRPG story set in space, but you can decide who the protagonist is. With the 'maybe game' vote you can specify either Claude or Rena as protag. If empty, my choice.",
-        "image": "ffxiii_lr.webp",
+        "image": "so_ss.webp",
         "votes": 1
     }]
 }

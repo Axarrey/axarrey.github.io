@@ -10,6 +10,11 @@
 
 html {
     overflow-y: scroll;
+    background: url('./resources/xb_blur.webp') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .index-header-container {
@@ -53,7 +58,7 @@ html {
 /******** Main body and related *******/
 
 body {
-    background-color: var(--bg-color);
+    /*background-color: var(--bg-color);*/
     font-size: 100%;
     margin: 0;
     color:var(--font-color);
@@ -62,13 +67,20 @@ body {
 
 /* Setting boundaries as well as general content alignment */
 .index-main {
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 1rem; 
+    margin-left: 5rem; 
+    margin-right: 5rem; 
+}
+
+.index-completed-games {
     display: grid;
     grid-template-columns: repeat(auto-fill, 350px);
     grid-template-rows: min-content;
     align-content: center;
     justify-content: center;
-    margin: 1em 3em;
-
+    margin-top: 1rem;
 
     /*display: flex;
     flex-direction: row;
@@ -77,6 +89,20 @@ body {
     /*justify-content: center;
     
     flex-wrap:wrap;*/
+}
+
+.index-section {
+    background-color: var(--bg-color); 
+    margin-bottom: 3rem; 
+    padding: 0rem 1rem 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.index-section h2 {
+    color: white; 
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .maybe-main {
@@ -97,7 +123,7 @@ body {
     justify-items: center;
     align-items: center;
     padding: 1.5rem;
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
 }
 
 .maybe-text-blurb {
@@ -105,6 +131,7 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 1rem;
+    box-shadow: 2px 2px 20px black;
 }
 
 .summary-main {
@@ -273,13 +300,9 @@ li {
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 954px) {
 
-    .index-main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
 
     .index-header-text {
         font-size: 2rem;
@@ -338,6 +361,12 @@ li {
         align-content: center;
         padding: 1.5rem;
         border-bottom: 1px solid black;
+    }
+
+    .index-completed-games {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
 

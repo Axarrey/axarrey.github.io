@@ -16,6 +16,55 @@
         <div><a href="https://twitch.tv/axarrey" target="_blank"><img src="resources/Sleep-Big.png" class="avatar"></a></div>
         <div class="index-header-text">Final Fantasy 1</div>
         <img src="resources/TwitchGlitchPurple.png" class="twitch-logo">
+
+        <script>
+            var textAreaSet = false;
+
+            window.addEventListener('DOMContentLoaded', (event) => {
+                
+                var magic = document.getElementById("display-magic-text");
+
+                magic.addEventListener("click", displayMagicText, false);
+            });
+            
+            
+            function displayMagicText() {
+                
+                var textArea = document.getElementById("text-here");
+
+                if (textAreaSet == false) {
+                    textArea.className = "index-section summary-text-area";
+                    textArea.style.paddingTop = "1rem";
+                    textAreaSet = true;
+                }
+
+                textArea.innerHTML = `I highly recommend having a look at the spell charge progression for any kind of mage. I have one for you here, if you’re curious: <a href="http://www.fforigins.com/ff1/char/bmage.html" target="_blank" style="color: aquamarine"> Click this for a breakdown of the NES Black Mage.</a> While I cannot guarantee that this is the same as it is in the Origin version, it does get the point across. This site, by the way, also has an ace world map that shows which enemies are fought in which grid cell. If you’re curious, click on this link: <a href="http://www.fforigins.com/ff1/maps/enemymap/" target="_blank" style="color: aquamarine">Map</a>
+                                    <br><br>
+                                    To illustrate an issue that persisted throughout the game: I would arrive at a new town, find useful (and expensive, prohibitively so) spells and equipment to purchase, but would have, at the absolute best of times, 1 or 2 charges of that level available to me at the point where I arrived at the new location. Let’s take a concrete example: Arriving at Elfheim at level 4 allowed me to learn exactly 0 of the spells on offer, as I did not have a level 3 slot available to me at the time. Leveling up while going through the areas around Elfheim eventually got me to level 6, at which point I had access to 2 level 3 charges. This allowed me to learn magic like Fire2 or Lit2 that would hit every enemy for 40 to 120 damage, in an area where enemies have between 60 to 140 HP. 
+                                    <br><br>
+                                    While powerful on its own, and certainly capable of wiping an entire screen of enemies if the INT stat wasn’t bugged, the amount of spell charges, even the lower level ones for a spells like Ice1 that would hit for 20 to 80 damage per enemy, stand in no relation to the amount of encounters you run into during your quest through this particular area, as well as every other area that comes before and after. Worse even, you cannot replenish them unless you use a cottage (expensive, World Map only, i.e. not usable in dungeons) or rest at an inn (moving back to town, more encounters to fight, etc.). There are no ethers in this game! 
+                                    <br><br>
+                                    What this results in is that either you’re holding onto your charges for situations that never arrive, saving them for the bossfight or running out of them early on in a new dungeon. This ended up making the black mage feel useless for the large majority of fights, because their physical strength adds nothing to a fight, and the difficult parts of the game, i.e. getting through dungeons, were more difficult for it. Effective usage of the black mage very much seems to depend on prior knowledge of the area - what enemies am I going to be fighting, which ones should I be looking out for? However, even considering a combination of well-utilized spells, a lot of escaping from fights that are just not worth it, and a good helping of additional levels through grinding, I can’t see the black mage’s pure magic damage output, or any mage’s for that matter, be more helpful in the long run in comparison to a non-magic-reliant class. In fact, a mage’s support abilities like Saber, a spell that raises a character’s ATK power, or Haste, a spell that increases the amount of hits a unit does per attack, seemed to be a better choice for damage than any direct-damage spells in their entire repertoire. Consider also the fact that these spells share the same level and charges with spells that can be used to attack multiple enemies. If you’re afraid of boss fights or particularly nasty one-monster trap fights, a threat that is very real, you’re lessening the mages’ unique utility of having the option to attack multiple enemies at once by saving charges for potent single-target spells for those encounters. 
+                                    <br><br>
+                                    This issue is alleviated about 2/3rds into the game, at which point you get equipment that comes with innate spell effects that can be used by “using” the piece of equipment within the Item command. These items have spells equivalent to Level 3 spells on them, such as Fire2 or Lit2, nullifying any kind of cost you would otherwise pay for these, offering a source of consistent encounter-wide damage. The issue then becomes: Why use anything but these items? At this stage in the game, you are essentially circumventing the spell charge system for encounter-wide spells and turn those charges into fodder for single-target only spells, such as the aforementioned support spells. 
+                                    <br><br>
+                                    I want to question the remaining purpose of the class at this stage in the game: They can still use their charges for support spells, single-target spells, or higher tier area-wide spells, perhaps spells that cause instant death instead of doing damage (risky), but those spells are still limited by spell charges, and with dungeons getting longer and longer, with no spell charge growth rate or increased max charge cap to match, those options simply won’t see much use. Furthermore, the items that allow them to cast Fire2 or Lit2 for free can be used by anyone, with most other classes also having access to higher consistent damage while now also having the option to adopt a niche that only mages were occupying previously. Essentially, a class that was already struggling to fulfill one of its unique utilities has had it destroyed through equipment. Of course, if you already have a mage in your party, all this does not matter, as you’re stuck with them anyway. In terms of how this class progresses, however, it does not make a whole lot of sense to me. 
+                                    <br><br>
+                                    Another point to consider that works against my enjoyment of black mage is the money required to keep them fully stocked with spells. While there’s barely any armor or equipment in general to buy for them, the cost of magic is more than a match for keeping, for example, a Warrior fully equipped, if you’re interested in getting more than one spell for each charge level. Considering that the vast majority of items in chests are also for, or at least usable by, the Warrior, a majority of the funds will be spent on spells that, as discussed above, don’t offer much to the party. 
+                                    <br><br>
+                                    I think it is safe to say that I don’t particularly enjoy having mages around, despite their cool looks. For the record: Some of the black mage centric complaints can also be thrown at the feet of the white mage. Their heals exist, but you cannot spam them endlessly. Especially with Warriors around, a lot if not most of your charges will be spent to get one of them from next to no HP to full again. Additionally, much like the Fire2/Lit2 items, there’s also party-wide healing equipment in the form of the Healing Helmet and the Healing Staff, offering party-wide small heals for no cost beyond the use of a character’s turn. 
+                                    <br><br>
+                                    What I will have to say to the white mage’s credit, however, is that their Dia spells, offensive spells that only deal damage to the undead, are a lot more potent than an equivalent level black magic spell and can easily wipe an entire enemy formation despite the bugged stats, provided all enemies are undead. Additionally, they’re the only ones who can revive dead units in the middle of a dungeon, as there is no Phoenix Down to go around, and they’re the only ones who can learn Exit, a spell that allows you to exit a dungeon immediately. These support spells are genuinely valuable, as they can allow you to recover from a deadly encounter or at least flee the dungeon to save. Last but not least, support spells like Exit or any of the Null-spells are unique to them and are much more distinct from the black mage’s. That, in my view, absolutely makes them a job choice that I am happy with.`
+            
+                textArea.scrollIntoView({behavior: 'smooth'});
+            }
+
+
+            
+
+        </script>
+
+
     </header>
     <nav style="display: flex; justify-content: center; color: white;">
         <a href ="./main.html" style="color: white; margin-right: 10px">Main Page</a> >>
@@ -75,8 +124,9 @@
                     </br>
                     <div class="point-of-interest"><b>Points of Interest:</b>
                         <ul>
+                            <li>Magic</li>
                             <li>Dungeon Design</li>
-                            <li>Job Balance</li>
+                            <li>Jobs</li>
                             <li>Soundtrack</li>
                             <li>Battle system</li>
                             <li>Story</li>
@@ -86,29 +136,108 @@
             </div>
         </div>
 
-        <section class="index-section">
-        <details style="font-size: 1.5rem; padding-top: 1rem; padding-bottom: 1rem; margin-top: 1rem;"> <!-- don't do inline styling, kids-->
-            <summary style="padding-left: 1rem">Stream Summary - Some fun chats!</summary>
-            <div class="summary-text-area">
-                <ul class="stream-summary-ul">
-                    <li>Starting out, people mentioned playing FF14 without having played any or barely any other Final Fantasies before! Just a surprise to me tbh. Where does the interest come from?</li>
-                    <li>We had a few small conversations around a chat-comment stating that Final Fantasies seem/are generic, and we ended up talking a little bit about how broad the series is in terms of appeal and how a lot of them are appreciably different from each other in terms of combat mechanics or character builds. Also discussed by folks: Main character looks, personalities, etc. Are Cloud and Tidus the same person?</li>
-                    <li>Bike driving lessons in the UK seem lethal. Driving on a 2 wheeled death machine on your first lesson practically without any real assistance? Thanks for the scares, Jimmy.</li>
-                    <li>Illforgetthisname mentioned that Final Fantasies 9, 10, and 11 were all announced on the same day! After a quick google, it apparently happened at a “Square Millenium Festival” on the first of February 2000. <a href="https://www.ign.com/articles/2000/02/01/square-millennium-event-final-fantasy-ix-x-and-xi-revealed" target="_blank" style="color: aquamarine">Article</a> </li>
-                    <li>Yuho’s Divinity: Original Sin 2 story. Will he and his buddy ever get to leave Reaper’s Coast?</li>
-                    <li>Taylor & Peebs talked about how they adore returning series conventions - Nostalgia bait incarnate or are they just all damn good designs? My heart wants the latter to be true.</li>
-                    <li>Boris mentioned how to raise weapon skills in FF2 easily - by equipping a shield, attacking with it (which does no damage to enemies) and then switching it back to the weapon at the end of the fight. Thanks!</li>
-                    <li>Whisperdraw talked a lot of interesting stuff about fighting games - random stun amount of attacks in Street Fighter 2, no stun gauge to gauge stun progress, how Mortal Kombat moved the “stun” to the end of the fight as a victory thing with Fatalities. He also mentioned that, to him, “combat is the lens through which you can focus your energy on improvement”, which I understood to mean not just focusing on improvement in the game itself to get better at it for the sake of it, but rather simply wanting to focus your own energy on the thought of improvement in general (as in, not limited to the game), which makes a lot of sense to me given that fighting games are nothing but improvement over a long period of time. Thank you for that insight!</li>
-                    <li>The story of Vii’s brother deleting their save of FF1 so they could never get very far shall forever be immortalized here. Rest in peace, progress!</li>
-                    <li>We found out Yuho and Profoundbadness are actually the same person, somehow. </li>
-                    <li>Squaerio mentioned that, in certain games, there is missmatch between a spell/skill created around a character's class/personality/character and how useful it actually is. A worthless skill special to a character can be a noteable design flaw.</li>
-                    <li>Thordoesathing returns to Twitch to be kind to everyone! Thanks again for all those gifts!</li>
-                    <li>Zebobz and Profoundbadness told me about how D&D spells work - how there’s cantrips that can be cast without the use of spell slots, how spells can be cast with higher slots to make the effect stronger (by adding more dice to the roll the higher the slot is, etc.). They also mentioned how certain classes in D&D are made more diverse by different sub-classes, or how there’s a ton of utility abilities that can be roleplayed with, or how JRPGs could use a major/minor actions system - just a generally enjoyable conversation about D&D and its applications - thanks guys! </li>
-                    <li>According to Illforgetthisname, the INT stat in this game is actually broken! </li>
-                    <li>Portablejerkops rightfully pointed out that the casting animations in this game look like a blowjob animation! Sorry, had to be in here.</li>
-                </ul>
+        <section class="summary-point-discussion" >
+            <div class="summary-section">
+                <h2 style="margin-top: 0; text-align: center">Magic</h2>
+                    
+                <div style="display: flex; justify-content: center">
+                    <img src="./resources/summary_ff1/blm_magic.webp">
+                </div>
+                <div class="point-of-interest" style="padding-top: 1rem;">
+                    <ul style="padding-left: 1rem">
+                        <li>Capped by spell level charges</li>
+                        <li>Spells need to be purchased</li>
+                        <li>Bugged spell damage scaling</li>
+                        <li>Support spells generally better - Spells like Saber or Temper offer substantial damage boost</li>
+                        <li>Equipment with innate encounter wide spells rob the mages of some unique utility</li>
+                        <li>Damaging spells require knowledge of area to use timely & effectively</li>
+                    </ul>
+                </div>
+                <div style="text-align: right" id="display-magic-text">More >></div>
             </div>
-        </details>
+
+            <div class="summary-section" style="width: 320px">
+                <h2 style="margin-top: 0; text-align: center">Dungeon Design</h2>
+                    
+                <div style="display: flex; justify-content: center">
+                    <img src="./resources/summary_ff1/dungeon_layout.webp">
+                </div>
+                <div class="point-of-interest" style="padding-top: 1rem;">
+                    <ul style="padding-left: 1rem">
+                        <li>Large portion can be mind-mapped easily</li>
+                        <li>If exploring, multiple required trips because of resource scarcity => knowledge for mages</li>
+                        <li>Usually straightforward critical path, making subsequent trips much quicker (e. g. Mirage Tower into Flying Fortress)</li>
+                        <li>Frequent use of (deadly) traps in the form of strong encounters</li>
+                        <li>Random encounters usually the most difficult portion - bosses are a resource management check.</li>
+                    </ul>
+                </div>
+                <div style="text-align: right" id="display-dungeon-text">More >></div>
+            </div>
+
+            <div class="summary-section">
+                <h2 style="margin-top: 0; text-align: center">Jobs</h2>
+                    
+                <div style="display: flex; justify-content: center">
+                    <img src="./resources/summary_ff1/jobs_ff1.webp">
+                </div>
+                <div class="point-of-interest" style="padding-top: 1rem;">
+                    <ul style="padding-left: 1rem">
+                        <li>Warrior big ol damage. Huge. Massive!</li>
+                        <li>Red Mage fancy ya know ya know</li>
+                        <li>White Mage pwetty</li>
+                        <li>Black Mage? More like bad mage.</li>
+                        <li>Seriously why are they just worse than all melees</li>
+                    </ul>
+                </div>
+                <div style="text-align: right" id="display-job-text">More >></div>
+            </div>
+
+            <div class="summary-section">
+                <h2 style="margin-top: 0; text-align: center">Soundtrack</h2>
+                    
+                <div style="display: flex; justify-content: center">
+                    <img src="./resources/summary_ff1/jobs_ff1.webp">
+                </div>
+                <div class="point-of-interest" style="padding-top: 1rem;">
+                    <ul style="padding-left: 1rem">
+                        <li>Uematsu soundtrack of my childhood</li>
+                        <li>Boss Battle themes slap</li>
+                        <li>Town theme pwetty</li>
+                        <li>Chaos Shrine theme pwetty</li>
+                        <li>Matoya's Cave? More like Matoya's Rave the tune is so good</li>
+                    </ul>
+                </div>
+                <div style="text-align: right" id="display-soundtrack-text">More >></div>
+            </div>
+        </section>
+
+        <section id="text-here">
+
+        </section>
+
+        <!--<section class="index-section">
+            <details style="font-size: 1.5rem; padding-top: 1rem; padding-bottom: 1rem; margin-top: 1rem;"> 
+                <summary style="padding-left: 1rem">Stream Summary - Some fun chats!</summary>
+                <div class="summary-text-area">
+                    <ul class="stream-summary-ul">
+                        <li>Starting out, people mentioned playing FF14 without having played any or barely any other Final Fantasies before! Just a surprise to me tbh. Where does the interest come from?</li>
+                        <li>We had a few small conversations around a chat-comment stating that Final Fantasies seem/are generic, and we ended up talking a little bit about how broad the series is in terms of appeal and how a lot of them are appreciably different from each other in terms of combat mechanics or character builds. Also discussed by folks: Main character looks, personalities, etc. Are Cloud and Tidus the same person?</li>
+                        <li>Bike driving lessons in the UK seem lethal. Driving on a 2 wheeled death machine on your first lesson practically without any real assistance? Thanks for the scares, Jimmy.</li>
+                        <li>Illforgetthisname mentioned that Final Fantasies 9, 10, and 11 were all announced on the same day! After a quick google, it apparently happened at a “Square Millenium Festival” on the first of February 2000. <a href="https://www.ign.com/articles/2000/02/01/square-millennium-event-final-fantasy-ix-x-and-xi-revealed" target="_blank" style="color: aquamarine">Article</a> </li>
+                        <li>Yuho’s Divinity: Original Sin 2 story. Will he and his buddy ever get to leave Reaper’s Coast?</li>
+                        <li>Taylor & Peebs talked about how they adore returning series conventions - Nostalgia bait incarnate or are they just all damn good designs? My heart wants the latter to be true.</li>
+                        <li>Boris mentioned how to raise weapon skills in FF2 easily - by equipping a shield, attacking with it (which does no damage to enemies) and then switching it back to the weapon at the end of the fight. Thanks!</li>
+                        <li>Whisperdraw talked a lot of interesting stuff about fighting games - random stun amount of attacks in Street Fighter 2, no stun gauge to gauge stun progress, how Mortal Kombat moved the “stun” to the end of the fight as a victory thing with Fatalities. He also mentioned that, to him, “combat is the lens through which you can focus your energy on improvement”, which I understood to mean not just focusing on improvement in the game itself to get better at it for the sake of it, but rather simply wanting to focus your own energy on the thought of improvement in general (as in, not limited to the game), which makes a lot of sense to me given that fighting games are nothing but improvement over a long period of time. Thank you for that insight!</li>
+                        <li>The story of Vii’s brother deleting their save of FF1 so they could never get very far shall forever be immortalized here. Rest in peace, progress!</li>
+                        <li>We found out Yuho and Profoundbadness are actually the same person, somehow. </li>
+                        <li>Squaerio mentioned that, in certain games, there is missmatch between a spell/skill created around a character's class/personality/character and how useful it actually is. A worthless skill special to a character can be a noteable design flaw.</li>
+                        <li>Thordoesathing returns to Twitch to be kind to everyone! Thanks again for all those gifts!</li>
+                        <li>Zebobz and Profoundbadness told me about how D&D spells work - how there’s cantrips that can be cast without the use of spell slots, how spells can be cast with higher slots to make the effect stronger (by adding more dice to the roll the higher the slot is, etc.). They also mentioned how certain classes in D&D are made more diverse by different sub-classes, or how there’s a ton of utility abilities that can be roleplayed with, or how JRPGs could use a major/minor actions system - just a generally enjoyable conversation about D&D and its applications - thanks guys! </li>
+                        <li>According to Illforgetthisname, the INT stat in this game is actually broken! </li>
+                        <li>Portablejerkops rightfully pointed out that the casting animations in this game look like a blowjob animation! Sorry, had to be in here.</li>
+                    </ul>
+                </div>
+            </details>
         </section>
         <section class="index-section">
             <details style="font-size: 1.5rem; padding-top: 1rem; padding-bottom: 1rem">
@@ -175,7 +304,7 @@
 
                 </div>
             </details>
-        </section>
+        </section>-->
     </main>
 
 

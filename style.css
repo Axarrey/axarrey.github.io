@@ -150,6 +150,25 @@ body {
 
 }
 
+.summary-point-discussion {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-template-rows: min-content;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+
+    /*display: flex;
+    flex-direction: row;
+    flex-flow:row; *//*new design 18.03.2021*/
+    /*flex-direction: column;  old design */
+    /*justify-content: center;
+    
+    flex-wrap:wrap;*/
+}
+
+
 .stream-summary-ul li {
     padding-bottom: 25px;
 }
@@ -173,7 +192,29 @@ body {
     border-collapse: separate;
     border-spacing: 10px 5px;
     text-align: left;
-   
+}
+
+
+.summary-section {
+    background-color: var(--bg-color); 
+    margin-bottom: 3rem; 
+    margin-right: 2rem;
+    height: min-content;
+    width: 320px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    
+}
+
+.summary-section h2 {
+    color: white; 
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.summary-section li {
+    padding-bottom: 10px;
 }
 
 .summary-table td {

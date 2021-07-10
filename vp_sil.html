@@ -20,12 +20,12 @@
                 highest_available_chapter = number;
                 fetchAccessories();
                 print(data);
-                let parent = document.getElementById("accessories");
+                let test = document.getElementById("max");
 
                 let help = document.createElement("div");
                 help.innerText = JSON.stringify(available_accessories);
 
-                parent.appendChild(help);
+                test.appendChild(help);
             }
 
             function fetchAccessories () {
@@ -80,7 +80,7 @@
             <label for="ch6">Chapter 6</label>
         </div>
 
-        <section id="accessories"><p>Available accessories:</p></section>
+        <section id="max"><p>Available accessories:</p></section>
 
 
 

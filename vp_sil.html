@@ -23,13 +23,13 @@
                 let test = document.getElementById("max");
 
                 let help = document.createElement("div");
-                help.innerText = JSON.stringify(available_accessories);
+                help.innerText = "Available Accessories: " + JSON.stringify(available_accessories);
 
                 test.appendChild(help);
             }
 
-            function fetchAccessories () {
-                fetch('../resources/json/vp_accessories.json')
+            async function fetchAccessories () {
+                await fetch('../resources/json/vp_accessories.json')
                     .then(res => {
                         if (!res.ok) {
                             throw new Error("Error loading file. Error code: " + res.status);

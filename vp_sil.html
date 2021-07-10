@@ -19,12 +19,13 @@
             function chapterUpdate (number) {
                 highest_available_chapter = number;
                 fetchAccessories();
+                print(data);
                 let parent = document.getElementById(accessories);
 
-                let child = document.createElement("div");
-                child.innerText = JSON.stringify(available_accessories);
+                let help = document.createElement("div");
+                help.innerText = "hello"
 
-                parent.appendChild(child);
+                parent.appendChild(help);
             }
 
             function fetchAccessories () {

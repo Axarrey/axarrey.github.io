@@ -16,9 +16,9 @@
             var available_accessories = [];
             var data;
 
-            function chapterUpdate (number) {
+            async function chapterUpdate (number) {
                 highest_available_chapter = number;
-                fetchAccessories();
+                await fetchAccessories();
                 console.log(data);
                 let test = document.getElementById("max");
 

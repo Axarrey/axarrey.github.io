@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+
+<head>
+    <title>VP2: Silmeria accessory runes & where to find them based on progress</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div style="margin: 5 rem; font-size: 3rem; background-color: black; color: white">Hello there</div>
+        <script>
+            var highest_available_chapter = 0;
+            var available_accessories = [];
+            var data;
+
+            function chapterUpdate (number) {
+                highest_available_chapter = number;
+                fetchAccessories();
+                let parent = document.getElementById(accessories);
+
+                let child = document.createElement("div");
+                child.innerText = JSON.stringify(available_accessories);
+
+                parent.appendChild(child);
+            }
+
+            function fetchAccessories () {
+                fetch('../resources/json/vp_accessories.json')
+                    .then(res => {
+                        if (!res.ok) {
+                            throw new Error("Error loading file. Error code: " + res.status);
+                        }
+                        return res.json();
+                    })
+                    .then(json => {
+                        this.data = json;
+                        json.accessories.forEach(item => {
+                            if (item.unlocks <= highest_available_chapter) {
+                                available_accessories.push(item);
+                            }
+                        });
+                    }).catch(function (e) {
+                        throw new Error("Error type: " + e);
+                    })                
+            }
+            
+
+
+        </script>
+    </header>
+    <main>
+        <p>Which chapters have you beaten?</p>
+
+        <div>
+            <input type="checkbox" id="ch1" name="ch1" onchange="chapterUpdate(1)">
+            <label for="ch1">Chapter 1</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch2" name="ch2">
+            <label for="ch2">Chapter 2</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch3" name="ch3">
+            <label for="ch3">Chapter 3</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch4" name="ch4">
+            <label for="ch4">Chapter 4</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch5" name="ch5">
+            <label for="ch5">Chapter 5</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch6" name="ch6">
+            <label for="ch6">Chapter 6</label>
+        </div>
+
+        <section id="accessories"><p>Available accessories:</p></section>
+
+
+
+    </main>
+
+</body>
+
+</hmtl>

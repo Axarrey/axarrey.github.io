@@ -1,0 +1,156 @@
+{ "accessories": [
+
+    {
+        "name": "Insect Stinger",
+        "rune": "Weakness",
+        "color": "Blue",
+        "area": ["Lost Forest", "Royal Underground Path"],
+        "enemy": "Bullet Beetle",
+        "part": "Stinger (backside)",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Beetle Shell",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": ["Lost Forest", "Royal Underground Path"],
+        "enemy": "Bullet Beetle",
+        "part": "Shell",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Skull Receptacle",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": ["Lost Forest", "Royal Underground Path"],
+        "enemy": "Skeleton",
+        "part": "Head",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Goblin Tooth",
+        "rune": "Darkness",
+        "color": "Blue",
+        "area": "Royal Underground Path",
+        "enemy": "Goblin",
+        "part": "Head",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Little Devil Heart",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Royal Underground Path",
+        "enemy": "Goblin",
+        "part": "Body",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Ram's Horn",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Royal Underground Path",
+        "enemy": "Ballistic Rhino",
+        "part": "Horn",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pact Chain",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Royal Underground Path",
+        "enemy": "Ballistic Rhino",
+        "part": "Head",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Baraka",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Royal Underground Path",
+        "enemy": "Ballistic Rhino",
+        "part": "Shield Cover (Left or Right)",
+        "unlocks": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Goblin Tooth",
+        "rune": "Darkness",
+        "color": "Blue",
+        "area": "Dipan Castle",
+        "enemy": "Goblin",
+        "part": "Head",
+        "unlocks": 2,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Little Devil Heart",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Dipan Castle",
+        "enemy": "Goblin",
+        "part": "Body",
+        "unlocks": 2,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pact Chain",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Dipan Castle",
+        "enemy": "Ballistic Rhino",
+        "part": "Arm (Right or Left",
+        "unlocks": 2,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Skull Receptacle",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": "Dipan Castle",
+        "enemy": "Skeleton",
+        "part": "Head",
+        "unlocks": 2,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Skull Receptacle",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": "Dipan Castle",
+        "enemy": "Skeleton Soldier",
+        "part": "Head",
+        "unlocks": 2,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blue Soul Flame",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Dipan Castle",
+        "enemy": "Warning Jewel",
+        "part": "Jewel",
+        "unlocks": 2,
+        "associated_skills": 0
+    }]
+}

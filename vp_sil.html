@@ -20,10 +20,10 @@
                 highest_available_chapter = number;
                 fetchAccessories();
                 print(data);
-                let parent = document.getElementById(accessories);
+                let parent = document.getElementById("accessories");
 
                 let help = document.createElement("div");
-                help.innerText = "hello"
+                help.innerText = JSON.stringify(available_accessories);
 
                 parent.appendChild(help);
             }

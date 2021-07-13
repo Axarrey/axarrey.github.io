@@ -60,13 +60,13 @@
                         let dungeons_div = document.createElement("div");
                         parent.appendChild(dungeons_div);
 
-                        let dungeons_submit = document.createElement("button");
+                        /*let dungeons_submit = document.createElement("button");
                         dungeons_submit.innerHTML = "Submit";
                         dungeons_submit.type = "submit";
                         dungeons_submit.addEventListener("submit", function(e) {
                             e.preventDefault();
                         });
-                        parent.appendChild(dungeons_submit);
+                        parent.appendChild(dungeons_submit);*/
 
 
                         let available_dungeons = [];
@@ -289,13 +289,14 @@
                     <button type="submit" id="mmm" name="submit">Submit</button>
                 </div>
             </form>
+            <div>Dungeons in the chapter you are currently in. Hover over the black bar to reveal name. Click to add dungeon to completed dungeons.</div>
             <form id="dungeons_form"></form>
         </div>
 
-        <section id="accessory_section" class="completed_games" ><p>Available accessories:</p>
+        <section id="accessory_section" class="completed_games" ><p>Click on one of the rune types:</p>
         <div style="display: flex; justify-content: center; flex-wrap: wrap;">
             <img src="./resources/vp_runes/activation.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Activation')"/>
-            <img src="./resources/vp_runes/bludgeoning.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Bludgeoning')"/>
+            <img src="./resources/vp_runes/bludgeoning.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Bludgeon')"/>
             <img src="./resources/vp_runes/creation.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Creation')"/>
             <img src="./resources/vp_runes/darkness.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Darkness')"/>
             <img src="./resources/vp_runes/earth.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Earth')"/>

@@ -39,6 +39,11 @@
                 form.addEventListener("submit", function(event) {
                     event.preventDefault();
 
+                    let newheader = document.getElementById("yeye");
+                    newheader.innerHTML = "Dungeons in the chapter you are currently in. Hover over the black bar to reveal name. Click to add dungeon to completed dungeons.";
+                    newheader.style = "margin-top: 1rem";
+                    
+
                     highest_available_chapter = parseInt(document.querySelector("input[name=chapterSelect]:checked").value);
 
                     console.log("Selected chapter: " + highest_available_chapter);
@@ -289,7 +294,7 @@
                     <button type="submit" id="mmm" name="submit">Submit</button>
                 </div>
             </form>
-            <div>Dungeons in the chapter you are currently in. Hover over the black bar to reveal name. Click to add dungeon to completed dungeons.</div>
+            <div id="yeye"></div>
             <form id="dungeons_form"></form>
         </div>
 

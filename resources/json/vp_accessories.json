@@ -4,10 +4,11 @@
         "name": "Insect Stinger",
         "rune": "Weakness",
         "color": "Blue",
-        "area": ["Lost Forest", "Royal Underground Path"],
+        "area": "Lost Forest",
         "enemy": "Bullet Beetle",
         "part": "Stinger (backside)",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 1,
         "associated_skills": 0
     },
 
@@ -15,10 +16,11 @@
         "name": "Beetle Shell",
         "rune": "Healing",
         "color": "Blue",
-        "area": ["Lost Forest", "Royal Underground Path"],
+        "area": "Lost Forest",
         "enemy": "Bullet Beetle",
         "part": "Shell",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 1,
         "associated_skills": 0
     },
 
@@ -26,10 +28,47 @@
         "name": "Skull Receptacle",
         "rune": "Earth",
         "color": "Blue",
-        "area": ["Lost Forest", "Royal Underground Path"],
+        "area": "Lost Forest",
         "enemy": "Skeleton",
         "part": "Head",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 1,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Insect Stinger",
+        "rune": "Weakness",
+        "color": "Blue",
+        "area": "Royal Underground Path",
+        "enemy": "Bullet Beetle",
+        "part": "Stinger (backside)",
+        "chapter": 1,
+        "dungeon": 2,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Beetle Shell",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Royal Underground Path",
+        "enemy": "Bullet Beetle",
+        "part": "Shell",
+        "chapter": 1,
+        "dungeon": 2,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Skull Receptacle",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": "Royal Underground Path",
+        "enemy": "Skeleton",
+        "part": "Head",
+        "chapter": 1,
+        "dungeon": 2,
         "associated_skills": 0
     },
 
@@ -40,7 +79,8 @@
         "area": "Royal Underground Path",
         "enemy": "Goblin",
         "part": "Head",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 2,
         "associated_skills": 0
     },
 
@@ -51,7 +91,8 @@
         "area": "Royal Underground Path",
         "enemy": "Goblin",
         "part": "Body",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 2,
         "associated_skills": 0
     },
 
@@ -62,7 +103,8 @@
         "area": "Royal Underground Path",
         "enemy": "Ballistic Rhino",
         "part": "Horn",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 2,
         "associated_skills": 0
     },
 
@@ -73,7 +115,8 @@
         "area": "Royal Underground Path",
         "enemy": "Ballistic Rhino",
         "part": "Head",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 2,
         "associated_skills": 0
     },
 
@@ -84,7 +127,8 @@
         "area": "Royal Underground Path",
         "enemy": "Ballistic Rhino",
         "part": "Shield Cover (Left or Right)",
-        "unlocks": 1,
+        "chapter": 1,
+        "dungeon": 2,
         "associated_skills": 0
     },
 
@@ -95,7 +139,8 @@
         "area": "Dipan Castle",
         "enemy": "Goblin",
         "part": "Head",
-        "unlocks": 2,
+        "chapter": 2,
+        "dungeon": 3,
         "associated_skills": 0
     },
 
@@ -106,7 +151,8 @@
         "area": "Dipan Castle",
         "enemy": "Goblin",
         "part": "Body",
-        "unlocks": 2,
+        "chapter": 2,
+        "dungeon": 3,
         "associated_skills": 0
     },
 
@@ -115,9 +161,10 @@
         "rune": "Holy",
         "color": "Blue",
         "area": "Dipan Castle",
-        "enemy": "Ballistic Rhino",
-        "part": "Arm (Right or Left",
-        "unlocks": 2,
+        "enemy": "Living Armor",
+        "part": "Arm (Right or Left)",
+        "chapter": 2,
+        "dungeon": 3,
         "associated_skills": 0
     },
 
@@ -128,7 +175,8 @@
         "area": "Dipan Castle",
         "enemy": "Skeleton",
         "part": "Head",
-        "unlocks": 2,
+        "chapter": 2,
+        "dungeon": 3,
         "associated_skills": 0
     },
 
@@ -139,7 +187,8 @@
         "area": "Dipan Castle",
         "enemy": "Skeleton Soldier",
         "part": "Head",
-        "unlocks": 2,
+        "chapter": 2,
+        "dungeon": 3,
         "associated_skills": 0
     },
 
@@ -150,7 +199,1056 @@
         "area": "Dipan Castle",
         "enemy": "Warning Jewel",
         "part": "Jewel",
-        "unlocks": 2,
+        "chapter": 2,
+        "dungeon": 3,
         "associated_skills": 0
-    }]
+    },
+
+    {
+        "name": "Fish Scales",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Kythena Plains",
+        "enemy": "Flying Fish",
+        "part": "Head or Body",
+        "chapter": 2,
+        "dungeon": 4,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Fish Scales",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Kythena Plains",
+        "enemy": "Flying Fish",
+        "part": "Head or Body",
+        "chapter": 2,
+        "dungeon": 4,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Goblin Tooth",
+        "rune": "Darkness",
+        "color": "Blue",
+        "area": "Kythena Plsins",
+        "enemy": "Goblin",
+        "part": "Head",
+        "chapter": 2,
+        "dungeon": 4,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Little Devil Heart",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Kythena Plains",
+        "enemy": "Goblin",
+        "part": "Body",
+        "chapter": 2,
+        "dungeon": 4,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pact Chain",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Kythena Plains",
+        "enemy": "Living Armor",
+        "part": "Arm (Right or Left)",
+        "chapter": 2,
+        "dungeon": 4,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blue Soul Flame",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Kythena Plains",
+        "enemy": "Warning Jewel",
+        "part": "Jewel",
+        "chapter": 2,
+        "dungeon": 4,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bat Ear",
+        "rune": "Weakness",
+        "color": "Blue",
+        "area": "Kythena Plains",
+        "enemy": "Giant Bat",
+        "part": "Ears",
+        "chapter": 2,
+        "dungeon": 4,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blue Soul Flame",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Ghost",
+        "part": "Candle (Middle)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cursed Soul",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Ghost",
+        "part": "Candle (Left)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Raptor's Talon",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Giant Hawk",
+        "part": "Wing (Right or Left)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Koboldapult",
+        "rune": "Weakness",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Kobold",
+        "part": "Weapon (Tip)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Coin",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Kobold Knight",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Indigo Plume",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Owlbear",
+        "part": "Head Feather",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thunderbreath Core",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Thunder Hawk",
+        "part": "Body (Left Side)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Charged Tailfeather",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Thunder Hawk",
+        "part": "Tailfeather (Right or Left)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Golem Eye",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Crust Golem",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Geist Core",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Crust Golem",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blade Claw",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Crust Golem",
+        "part": "Tail (Right or Left)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Dragon Bile",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Lower Lizard (Repeatable Boss)",
+        "part": "Tail",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon's Talon",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Lower Lizard (Repeatable Boss)",
+        "part": "Leg (Front Right or Front Left)",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Orientation Scales",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Upper Lizard (Repeatable Boss)",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Gallstones",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Serdberg Mountain Ruins",
+        "enemy": "Upper Lizard (Repeatable Boss)",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 5,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Lamb's Horn",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Ancient Forest",
+        "enemy": "Goat Man",
+        "part": "Horns",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Piercing Imprint",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Ancient Forest",
+        "enemy": "Goat Man",
+        "part": "Arm (Right)",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Falcon Imprint",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Ancient Forest",
+        "enemy": "Goat Man",
+        "part": "Arm (Left)",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Coin",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Ancient Forest",
+        "enemy": "Kobold Knight",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    
+    {
+        "name": "Indigo Plume",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Ancient Forest",
+        "enemy": "Owlbear",
+        "part": "Head Feather",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thunderbreath Core",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Ancient Forest",
+        "enemy": "Thunder Hawk",
+        "part": "Body (Left Side)",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Charged Tailfeather",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Ancient Forest",
+        "enemy": "Thunder Hawk",
+        "part": "Tailfeather (Right or Left)",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Poison Seed",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Ancient Forest",
+        "enemy": "Toxic Flower",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Immense Incisor",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": "Ancient Forest",
+        "enemy": "Troll",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 6,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Eyeball",
+        "rune": "Weakness",
+        "color": "Blue",
+        "area": "Turgen Mine",
+        "enemy": "Clay Man",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Electric Bone",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Turgen Mine",
+        "enemy": "Clay Man",
+        "part": "Shoulder (Upper Right or Upper Left)",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bone Mace",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Turgen Mine",
+        "enemy": "Clay Man",
+        "part": "Tentacle (Upper Left or Upper Right)",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thick Bone",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Turgen Mine",
+        "enemy": "Clay Man",
+        "part": "Shoulder (Lower Left or Lower Right)",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Gas Ejector",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Turgen Mine",
+        "enemy": "Giant Snail",
+        "part": "Body (Base)",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Black Pearl",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Turgen Mine",
+        "enemy": "Giant Snail",
+        "part": "Shell (Front) or Body (Back Middle)",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Stone Bullet",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Turgen Mine",
+        "enemy": "Giant Snail",
+        "part": "Shell (Right or Left)",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Gallstones",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Turgen Mine",
+        "enemy": "Lizard Lord",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Monster Scales",
+        "rune": "Resistance",
+        "color": "Blue",
+        "area": "Turgen Mine",
+        "enemy": "Lizard Lord",
+        "part": "Legs or Tail",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Piercing Imprint",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Turgen Mine",
+        "enemy": "Lizard Lord",
+        "part": "Weapon",
+        "chapter": 3,
+        "dungeon": 7,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sabertooth",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Deep One",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Little Devil Heart",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Deep One",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Golem Eye",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Giant Crab",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Geist Core",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Giant Crab",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Tough Fin",
+        "rune": "Resistance",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Giant Crab",
+        "part": "Tail (Right or Left)",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Gallstones",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Lizard Lord",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Monster Scales",
+        "rune": "Resistance",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Lizard Lord",
+        "part": "Legs or Tail",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Piercing Imprint",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Lizard Lord",
+        "part": "Weapon",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Gallstones",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Lizard Man",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Monster Scales",
+        "rune": "Resistance",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Lizard Man",
+        "part": "Legs",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Fish Scales",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Skull Fish",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Tough Fin",
+        "rune": "Resistance",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Skull Fish",
+        "part": "Tail",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Electric Bone",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Strobila",
+        "part": "Flower",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Walkflower Tendril",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Strobila",
+        "part": "Arm (Right or Left)",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vermillion Cartilage",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Kraken",
+        "part": "Head (Lower)",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bone Mace",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Kraken",
+        "part": "Mouth Tentacle (Left or Right)",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Stone Bullet",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Kraken",
+        "part": "Tentacle (Upper Right or Upper Left)",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Ammunition Shell",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Kraken",
+        "part": "Tentacle (Lower Right or Lower Left)",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Mace Head",
+        "rune": "Bludgeon",
+        "color": "Blue",
+        "area": "Audoula Temple on the Lake",
+        "enemy": "Kraken",
+        "part": "Mace Tentacle (Right or Left)",
+        "chapter": 3,
+        "dungeon": 8,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Battering Ram's Horn",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Sahma Desert",
+        "enemy": "Desert Beast",
+        "part": "Horn",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Baraka",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Sahma Desert",
+        "enemy": "Desert Beast",
+        "part": "Head or Body",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Hot Plate",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Sahma Desert",
+        "enemy": "Desert Beast",
+        "part": "Shield Cover (Right or Left)",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Beetle Horn",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Sahma Desert",
+        "enemy": "Giant Scarab",
+        "part": "Stinger",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Stone Bullet",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Sahma Desert",
+        "enemy": "Giant Scarab",
+        "part": "Body (Left or Right Side)",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Insect Claw",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Sahma Desert",
+        "enemy": "Giant Scarab",
+        "part": "Pincer (Right or Left)",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Beetle Shell",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Sahma Desert",
+        "enemy": "Giant Scarab",
+        "part": "Shell",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Giant Amber",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Sahma Desert",
+        "enemy": "Sand Flower",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 9,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bat Ear",
+        "rune": "Weakness",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Fire Bat",
+        "part": "Ears",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Beetle Horn",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Giant Scarab",
+        "part": "Stinger",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Stone Bullet",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Giant Scarab",
+        "part": "Body (Left or Right Side)",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Insect Claw",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Giant Scarab",
+        "part": "Pincer (Right or Left)",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Beetle Shell",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Giant Scarab",
+        "part": "Shell",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Flare Ore",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Hellhound",
+        "part": "Tail",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Firebreath Core",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Hellhound",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Core Ruby",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Red Jewel",
+        "part": "Jewel",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vermillion Scales",
+        "rune": "Resistance",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Red Lizard",
+        "part": "Head or Legs",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Piercing Imprint",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Red Lizard",
+        "part": "Weapon",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Lightning Stone",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Skeletal Soldier",
+        "part": "Legs",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Hail Jewel",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Skeletal Soldier",
+        "part": "Arm (Right or Left)",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Staff",
+        "rune": "Bludgeon",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Skeletal Soldier",
+        "part": "Spear",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Staff",
+        "rune": "Bludgeon",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Skeletal Soldier",
+        "part": "Spear",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pyrotechnic Ore",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Wild Lizard",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon's Talon",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Wild Lizard",
+        "part": "Tail",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Spiked Claw",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Wild Lizard",
+        "part": "Leg (Back Right or Back Left)",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Flare Ore",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Evolver (Refightable Boss)",
+        "part": "Rock Hand (Right)",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pyrotechnic Ore",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Surts Volcano Caverns",
+        "enemy": "Evolver",
+        "part": "Rock Hand (Left)",
+        "chapter": 3,
+        "dungeon": 10,
+        "associated_skills": 0
+    }
+    
+
+]
 }

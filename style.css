@@ -207,6 +207,19 @@ body {
     
 }
 
+.spoiler {
+    background-color: black;
+    color: black;
+}
+
+.spoiler:hover {
+    background-color: none;
+    color: white;
+}
+
+
+
+
 .summary-section h2 {
     color: white; 
     margin-top: 1rem;
@@ -320,6 +333,50 @@ li {
 .point-of-interest {
     margin-left: 0.5rem;
 }
+
+
+/* Silmeria css stuff */
+.vp-sil-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 70px;
+}
+
+
+#accessory_section img:hover {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#accessory_section img {
+    margin: 0.5rem;
+}
+
+.accessory-image {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.accessory-blue-result {
+    border-left: 2px solid blue;
+    margin-bottom: 2rem;
+  
+}
+
+.accessory-red-result {
+    border-left: 2px solid red;
+    margin-bottom: 2rem;
+    
+}
+
+.accessory-green-result {
+    border-left: 2px solid green;
+    
+}
+
+
+
 
 @media screen and (max-width: 1450px) {
     

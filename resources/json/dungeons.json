@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Lost Forest",
+        "chapter": 1,
+        "dungeon": 1,
+        "optional": false
+    },
+
+    {
+        "name": "Royal Underground Path",
+        "chapter": 1,
+        "dungeon": 2,
+        "optional": false
+    },
+
+    {
+        "name": "Dipan Castle",
+        "chapter": 2,
+        "dungeon": 3,
+        "optional": false
+    },
+
+    {
+        "name": "Kythena Plains",
+        "chapter": 2,
+        "dungeon": 4,
+        "optional": false
+    },
+
+    {
+        "name": "Serdberg Mountain Ruins",
+        "chapter": 3,
+        "dungeon": 5,
+        "optional": false
+    },
+
+    {
+        "name": "Ancient Forest",
+        "chapter": 3,
+        "dungeon": 6,
+        "optional": true
+    },
+
+    {
+        "name": "Turgen Mine",
+        "chapter": 3,
+        "dungeon": 7,
+        "optional": true
+    },
+
+    {
+        "name": "Audoula Temple on the Lake",
+        "chapter": 3,
+        "dungeon": 8,
+        "optional": false
+    },
+
+    {
+        "name": "Sahma Desert",
+        "chapter": 3,
+        "dungeon": 9,
+        "optional": false
+    },
+
+    {
+        "name": "Surts Volcano Caverns",
+        "chapter": 3,
+        "dungeon": 10,
+        "optional": false
+    },
+    
+    {
+        "name": "Chateau Obsession",
+        "chapter": 3,
+        "dungeon": 11,
+        "optional": true
+    },
+
+    {
+        "name": "Crawsus Forest Ruins",
+        "chapter": 3,
+        "dungeon": 12,
+        "optional": false
+    },
+    
+    {
+        "name": "Dragonscrypt",
+        "chapter": 3,
+        "dungeon": 13,
+        "optional": false
+    },
+
+    {
+        "name": "Palace of the Venerated Dragon",
+        "chapter": 3,
+        "dungeon": 14,
+        "optional": false
+    },
+
+    {
+        "name": "Sukvia Gorge",
+        "chapter": 4,
+        "dungeon": 15,
+        "optional": false
+    },
+
+    {
+        "name": "Royal Underground Path",
+        "chapter": 4,
+        "dungeon": 16,
+        "optional": false
+    },
+
+    {
+        "name": "Dipan Castle",
+        "chapter": 4,
+        "dungeon": 17,
+        "optional": false
+    }
+    
+]

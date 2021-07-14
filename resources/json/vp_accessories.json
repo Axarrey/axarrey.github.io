@@ -1242,13 +1242,904 @@
         "rune": "Fire",
         "color": "Green",
         "area": "Surts Volcano Caverns",
-        "enemy": "Evolver",
+        "enemy": "Evolver (Refightable Boss)",
         "part": "Rock Hand (Left)",
         "chapter": 3,
         "dungeon": 10,
         "associated_skills": 0
-    }
-    
+    },
 
+    {
+        "name": "Dragon's Horn",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Dragon",
+        "part": "Horn",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon's Fang",
+        "rune": "Piercing",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Dragon",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Sapphire",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Dragon",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Holybreath Core",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Dragon",
+        "part": "Waist",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+    
+    {
+        "name": "Spiked Claw",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Dragon",
+        "part": "Wing (Right or Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon's Talon",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Dragon",
+        "part": "Arm (Right or Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Skeleton Goblet",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Giant Skeleton",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Skeleton Goblet",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Giant Skeleton",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blazebreath Core",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Giant Skeleton",
+        "part": "Chest (Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cursed Soul",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Giant Skeleton",
+        "part": "Chest (Right) or Arm (Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Greatsword",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Giant Skeleton",
+        "part": "Arm (Right)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Lamb's Horn",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Satyr",
+        "part": "Horns",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Piercing Imprint",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Satyr",
+        "part": "Arm (Right)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Falcon Imprint",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Satyr",
+        "part": "Arm (Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Bow",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Satyr",
+        "part": "Bow",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Little Devil Heart",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Trash Demon",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Staff",
+        "rune": "Bludgeon",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Trash Demon",
+        "part": "Weapon",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Monstrous Molar",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Troll Chief",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blue Soul Flame",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Will-o-the-Wisp",
+        "part": "Candle (Middle)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Demon Horn",
+        "rune": "Darkness",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Greater Demon (Miniboss with Dragon)",
+        "part": "Horn (Right or Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dead Man's Gem",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Chateau Obsession",
+        "enemy": "Greater Demon (Miniboss with Dragon)",
+        "part": "Chest",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Alloy",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Greater Demon (Miniboss with Dragon)",
+        "part": "Arm (Right)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cerulean Alloy",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Greater Demon (Miniboss with Dragon)",
+        "part": "Arm (Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Jet Black Wing",
+        "rune": "Darkness",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Greater Demon (Miniboss with Dragon)",
+        "part": "Waist Wings (Front)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Polished Blue Ore*",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Berserker",
+        "part": "Sword (Upper Right)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cerulean Alloy*",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Berserker",
+        "part": "Sword (Lower Right)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Indigo Quartz*",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Berserker",
+        "part": "Sword (Upper Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Teal Spinel*",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Berserker",
+        "part": "Sword (may be Lower Left. Guide specifies Upper Right but clashes with Polished Blue Ore drop of same enemy)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Greatsword*",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Berserker",
+        "part": "Arm (Upper Right or Upper Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword*",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Chateau Obsession",
+        "enemy": "Berserker",
+        "part": "Arm (Lower Right or Lower Left)",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blue Soul Flame*",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Chateau Obsession",
+        "enemy": "Lady Cleo",
+        "part": "Ghost",
+        "chapter": 3,
+        "dungeon": 11,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Orientation Scales",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Bolt Dragon",
+        "part": "Head",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Boltbreath Core",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Bolt Dragon",
+        "part": "Body",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Lightning Stone",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Disgusting Shell",
+        "part": "Mouth",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Ejector",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Disgusting Shell",
+        "part": "Body (Base)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Black Pearl",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Disgusting Shell",
+        "part": "Shell (Front or Back Middle)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Ammunition Shell",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Disgusting Shell",
+        "part": "Shell (Right or Left)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Electricbreath Core",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Electrical Chip",
+        "part": "Inner Layer",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vermillion Cartilage",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Land Kraken",
+        "part": "Head (Lower)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Stone Bullet",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Land Kraken",
+        "part": "Tentacle (Upper Right or Upper Left)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Armor Piercer",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Land Kraken",
+        "part": "Tentacle (Lower Left or Lower Right)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thick Bone",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Land Kraken",
+        "part": "Mace Tentacle (Right or Left)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sacred Spinel",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Phantom Lurker",
+        "part": "Ghost",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sacred Spinel",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Phantom Lurker",
+        "part": "Ghost",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sacred Spinel",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Tear Soul",
+        "part": "Candle (Middle)",
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sprinter Cell",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Tear Soul",
+        "part": "Candle (Right or Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evil Eye Gem",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Unclean Glob",
+        "part": "Head",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bone Mace",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Unclean Glob",
+        "part": "Shoulder (Upper Right or Upper Left)",
+        "droprate": 75,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thick Bone",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Unclean Glob",
+        "part": "Shoulder (Lower Left or Lower Right)",
+        "droprate": 20,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Aura Force",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Vampire",
+        "part": "Body (Lower)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Demon's Parabola",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Vampire Bat",
+        "part": "Ears",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bat Cloak",
+        "rune": "Darkness",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Vampire Bat",
+        "part": "Wing (Right or Left)",
+        "droprate": 70,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thor's Rage",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Shaman-Chief (Miniboss)",
+        "part": "Body (Right)",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Solar Jewel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Shaman-Chief (Miniboss)",
+        "part": "Body (Left)",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Alloy",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Shaman-Chief (Miniboss)",
+        "part": "Mantle (Front Right or Front Left)",
+        "droprate": 20,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cerulean Alloy",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Shaman-Chief (Miniboss)",
+        "part": "Mantle (Side Right or Side Left)",
+        "droprate": 20,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Abyss Cloak",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Shaman-Chief (Miniboss)",
+        "part": "Mantle (Back Right or Back Left)",
+        "droprate": 20,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Teeth",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Wild Troll (Miniboss)",
+        "part": "Head",
+        "droprate": 75,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Polished Green Ore",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Wild Troll (Miniboss)",
+        "part": "Waist",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Polished Red Ore",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Wild Troll (Miniboss)",
+        "part": "Weapon",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Darkbreath Core",
+        "rune": "Darkness",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Hydra (Refightable Boss)",
+        "part": "Head (Middle)",
+        "droprate": 75,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blackbreath Core",
+        "rune": "Darkness",
+        "color": "Green",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Hydra (Refightable Boss)",
+        "part": "Head (Front Right)",
+        "droprate": 60,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Gasbreath Core",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Hydra (Refightable Boss)",
+        "part": "Head (Back Right)",
+        "droprate": 60,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Poisonbreath Core",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Hydra (Refightable Boss)",
+        "part": "Head (Front Left)",
+        "droprate": 60,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Verdigris Scales",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Hydra (Refightable Boss)",
+        "part": "Body (Front)",
+        "droprate": 80,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Sapphire",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Crawsus Forest Ruins",
+        "enemy": "Hydra (Refightable Boss)",
+        "part": "Body (Middle)",
+        "droprate": 80,
+        "chapter": 3,
+        "dungeon": 12,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vermillion Cartilage",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Dragonscrypt",
+        "enemy": "Green Coral",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 3,
+        "dungeon": 13,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bone Mace",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Dragonscrypt",
+        "enemy": "Green Coral",
+        "part": "Arm (Right or Left)",
+        "droprate": 80,
+        "chapter": 3,
+        "dungeon": 13,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Mace Head",
+        "rune": "Bludgeon",
+        "color": "Blue",
+        "area": "Dragonscrypt",
+        "enemy": "Green Coral",
+        "part": "Tentacle (Right or Left)",
+        "droprate": 10,
+        "chapter": 3,
+        "dungeon": 13,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Fish Scales",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Dragonscrypt",
+        "enemy": "Gun Fish",
+        "part": "Head",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 13,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blue Bubble Core",
+        "rune": "Earth",
+        "color": "Blue",
+        "area": "Dragonscrypt",
+        "enemy": "Gun Fish",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 3,
+        "dungeon": 13,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Swordfish Snout",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Dragonscrypt",
+        "enemy": "Gun Fish",
+        "part": "Antenna",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 13,
+        "associated_skills": 0
+    }
+
+    
 ]
 }

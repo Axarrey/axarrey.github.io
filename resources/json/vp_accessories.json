@@ -2138,6 +2138,435 @@
         "chapter": 3,
         "dungeon": 13,
         "associated_skills": 0
+    },
+
+    {
+        "name": "Orientation Scales",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dragon Bat",
+        "part": "Head",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Flamebreath Core",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dragon Bat",
+        "part": "Body",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Electric Bone",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dryad",
+        "part": "Head",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evil Eye Gem",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dryad",
+        "part": "Body (Upper)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cutting Claw",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dryad",
+        "part": "Arm (Right or Left)",
+        "droprate": 25,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Tough Fin",
+        "rune": "Resistance",
+        "color": "Blue",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dryad",
+        "part": "Tail (Right or Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Aura Force",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Gigantic Claws",
+        "part": "Core",
+        "droprate": 60,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Gremlin Core",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Gigantic Claws",
+        "part": "Body",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Axe Crust",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Gigantic Claws",
+        "part": "Tail (Right or Left)",
+        "droprate": 25,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Core Emerald",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Green Jewel",
+        "part": "Jewel",
+        "droprate": 25,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Splint",
+        "rune": "Resistance",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Iron Golem",
+        "part": "Shield (2nd - Right or 2nd - Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Damascus Ore",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Iron Golem",
+        "part": "Shield (3rd - Right or 5th - Right or 3rd - Left or 5th Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Signet",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Muscular Stalker",
+        "part": "Body (Right)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Polished Red Ore",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Muscular Stalker",
+        "part": "Sword (Upper Right)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Alloy",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Muscular Stalker",
+        "part": "Sword (Lower Right)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Rose Quartz",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Muscular Stalker",
+        "part": "Sword (Upper Left)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Fuchsia Spinel",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Muscular Stalker",
+        "part": "Sword (Upper Right)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Muscular Stalker",
+        "part": "Arm (Upper Right or Upper Left)",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thor's Rage",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Necromancer",
+        "part": "Body (Right)",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Solar Jewel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Necromancer",
+        "part": "Body (Left)",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Alloy",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Necromancer",
+        "part": "Mantle (Front Right or Front Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cerulean Alloy",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Necromancer",
+        "part": "Mantle (Side Right or Side Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Abyss Cloak",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Necromancer",
+        "part": "Mantle (Back Right or Back Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Soul Flame",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Phantom Guardian",
+        "part": "Candle (Middle)",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Eternal Flame",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Phantom Guardian",
+        "part": "Candle (Left)",
+        "droprate": 15,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vision Orb",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Spectral Knight",
+        "part": "Head",
+        "droprate": 30,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Augite of Life",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Spectral Knight",
+        "part": "Chest",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sprinter Cell",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Spectral Knight",
+        "part": "Legs",
+        "droprate": 40,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Signet",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Spectral Knight",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Spear",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Spectral Knight",
+        "part": "Spear",
+        "droprate": 35,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragonmaggots",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dragon Zombie (Refightable Boss)",
+        "part": "Core",
+        "droprate": 80,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Rotted Scales",
+        "rune": "Weakness",
+        "color": "Green",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dragon Zombie (Refightable Boss)",
+        "part": "Body or Tail",
+        "droprate": [75, 40],
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Spectral Wing",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Palace of the Venerated Dragon",
+        "enemy": "Dragon Zombie (Refightable Boss)",
+        "part": "Wing (Right or Left)",
+        "droprate": 50,
+        "chapter": 3,
+        "dungeon": 14,
+        "associated_skills": 0
     }
 
     

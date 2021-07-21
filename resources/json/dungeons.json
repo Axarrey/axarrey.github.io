@@ -101,20 +101,41 @@
         "name": "Sukvia Gorge",
         "chapter": 4,
         "dungeon": 15,
-        "optional": false
+        "optional": true
     },
 
     {
-        "name": "Royal Underground Path",
+        "name": "Royal Underground Path (Ch4+)",
         "chapter": 4,
         "dungeon": 16,
         "optional": false
     },
 
     {
-        "name": "Dipan Castle",
+        "name": "Dipan Castle ",
         "chapter": 4,
         "dungeon": 17,
+        "optional": false
+    },
+
+    {
+        "name": "Forest of Spirits",
+        "chapter": 5,
+        "dungeon": 18,
+        "optional": false
+    },
+
+    {
+        "name": "Dipan Castle (Ch5+)",
+        "chapter": 5,
+        "dungeon": 19,
+        "optional": false
+    }
+
+    {
+        "name": "Ravine Caverns",
+        "chapter": 5,
+        "dungeon": 20,
         "optional": false
     }
     

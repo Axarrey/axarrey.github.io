@@ -112,7 +112,7 @@
     },
 
     {
-        "name": "Dipan Castle ",
+        "name": "Dipan Castle",
         "chapter": 4,
         "dungeon": 17,
         "optional": false
@@ -136,6 +136,27 @@
         "name": "Ravine Caverns",
         "chapter": 5,
         "dungeon": 20,
+        "optional": false
+    },
+
+    {
+        "name": "Bifrost",
+        "chapter": 5,
+        "dungeon": 21,
+        "optional": false
+    },
+
+    {
+        "name": "Yggdrasil",
+        "chapter": 5,
+        "dungeon": 22,
+        "optional": false
+    },
+
+    {
+        "name": "Halls of Valhalla",
+        "chapter": 5,
+        "dungeon": 23,
         "optional": false
     }
     

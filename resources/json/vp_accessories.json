@@ -2567,8 +2567,1150 @@
         "chapter": 3,
         "dungeon": 14,
         "associated_skills": 0
-    }
+    },
 
-    
+    {
+        "name": "Icebreath Core",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Sukavia Gorge",
+        "enemy": "Ice Devil",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Rose Quartz",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Sukavia Gorge",
+        "enemy": "Ice Devil",
+        "part": "Weapon",
+        "droprate": 40,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Monstrous Molar",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Sukavia Gorge",
+        "enemy": "Ice Troll",
+        "part": "Head",
+        "droprate": 75,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Ymir's Tears",
+        "rune": "Ice",
+        "color": "Green",
+        "area": "Sukavia Gorge",
+        "enemy": "Ice Troll",
+        "part": "Waist",
+        "droprate": 40,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Indigo Quartz",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Sukavia Gorge",
+        "enemy": "Ice Troll",
+        "part": "Weapon",
+        "droprate": 40,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Fang",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Sukavia Gorge",
+        "enemy": "Winter Wolf",
+        "part": "Head",
+        "droprate": 30,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Fang",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Sukavia Gorge",
+        "enemy": "Winter Wolf",
+        "part": "Head",
+        "droprate": 30,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Icebreath Core",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Sukavia Gorge",
+        "enemy": "Winter Wolf",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 4,
+        "dungeon": 15,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Ram's Horn",
+        "rune": "Strengthening",
+        "color": "Blue",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Beast Fort",
+        "part": "Horn",
+        "droprate": 30,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Baraka",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Beast Fort",
+        "part": "Head or Body",
+        "droprate": [30, 50],
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Hollow Shell",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Beast Fort",
+        "part": "Upper Armor",
+        "droprate": 50,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Damascus Ore",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Beast Fort",
+        "part": "Shield (Right or Left)",
+        "droprate": 50,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Assault Missile",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Beast Fort",
+        "part": "Spearhead (Right or Left)",
+        "droprate": 50,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Mithril Ore",
+        "rune": "Training",
+        "color": "Red",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Beast Fort",
+        "part": "Shieldcover (Right or Left)",
+        "droprate": 40,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Green Bubble Core",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Flying Killer",
+        "part": "Head",
+        "droprate": 40,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Narwhal Tooth",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Royal Underground Path (Ch4)",
+        "enemy": "Flying Killer",
+        "part": "Head",
+        "droprate": 40,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Jet Ejector",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Royal Underground Path (Ch4+)",
+        "enemy": "Gigantic Moth",
+        "part": "Body (Base)",
+        "droprate": 30,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Ammunition Shell",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Royal Underground Path (Ch4+)",
+        "enemy": "Gigantic Moth",
+        "part": "Shell (Right or Left)",
+        "droprate": 50,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evergreen Scales",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Royal Underground Path (Ch4+)",
+        "enemy": "Lizard Knight",
+        "part": "Head",
+        "droprate": 40,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Green Gallbladder",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Royal Underground Path (Ch4+)",
+        "enemy": "Lizard Knight",
+        "part": "Legs",
+        "droprate": 60,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vermillion Scales",
+        "rune": "Resistance",
+        "color": "Red",
+        "area": "Royal Underground Path (Ch4+)",
+        "enemy": "Lizard Knight",
+        "part": "Tail",
+        "droprate": 60,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Splint",
+        "rune": "Resistance",
+        "color": "Red",
+        "area": "Royal Underground Path (Ch4+)",
+        "enemy": "Lizard Knight",
+        "part": "Shield",
+        "droprate": 60,
+        "chapter": 4,
+        "dungeon": 16,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Walkflower Blade",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Carnivorous Plant",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Electricbreath Core",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Elven Hawk",
+        "part": "Body (Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Windswept Tailfeather",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Elven Hawk",
+        "part": "Tailfeather (Right or Left)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Colossal Canine Tooth",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Elven Wolf",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blade Claw",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Forest of Spirits",
+        "enemy": "Elven Wolf",
+        "part": "Legs",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Gold Coin",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Kobold Lord",
+        "part": "Body",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Mithril Ore",
+        "rune": "Training",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Kobold Lord",
+        "part": "Helmet",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Spear",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Kobold Lord",
+        "part": "Weapon (Tip)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Silver Coin",
+        "rune": "Training",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Kobold Warrior",
+        "part": "Body",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Koboldriver",
+        "rune": "Bludgeon",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Kobold Warrior",
+        "part": "Weapon (Tip)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Desolation Gem",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Life Stealer",
+        "part": "Legs",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Life Stealer",
+        "part": "Weapon",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Crown",
+        "rune": "Weakness",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Lizard King",
+        "part": "Head",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evergreen Scales",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Lizard King",
+        "part": "Body",
+        "droprate": 45,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Green Gallbladder",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Lizard King",
+        "part": "Legs",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vermillion Scales",
+        "rune": "Resistance",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Lizard King",
+        "part": "Tail",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Greatsword",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Forest of Spirits",
+        "enemy": "Lizard King",
+        "part": "Weapon",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Damascus Ore",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Lizard King",
+        "part": "Shield",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Toxic Seed",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Mimetic Flower",
+        "part": "Body",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sharp Scissor Heart",
+        "rune": "Darkness",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Sharp Scissors",
+        "part": "Body (Lower)",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Desolation Gem",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Sharp Scissors",
+        "part": "Core",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scissorhand",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Sharp Scissors",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sabertooth",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Sky Lizard",
+        "part": "Head",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Dragon Bile",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Forest of Spirits",
+        "enemy": "Sky Lizard",
+        "part": "Body",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Indigo Quartz",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Forest of Spirits",
+        "enemy": "Prince of Hel (Miniboss)",
+        "part": "Body",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Desolation Gem",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Forest of Spirits",
+        "enemy": "Prince of Hel (Miniboss)",
+        "part": "Legs",
+        "droprate": 75,
+        "chapter": 5,
+        "dungeon": 18,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Horn",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn",
+        "part": "Horns",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Teeth",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Solar Jewel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn",
+        "part": "Body (Middle)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Baraka",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn",
+        "part": "Body (Back)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Assault Missile",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn",
+        "part": "Arm (Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Bow",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn",
+        "part": "Bow",
+        "droprate": 45,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Horn",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn Leader",
+        "part": "Horns",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Teeth",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn Leader",
+        "part": "Head",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Solar Jewel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn Leader",
+        "part": "Body (Middle)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vortex Crest",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn Leader",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Assault Missile",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Capricorn Leader",
+        "part": "Bow",
+        "droprate": 45,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vision Orb",
+        "rune": "Healing",
+        "color": "Blue",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Holy Order",
+        "part": "Head",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Signet",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Holy Order",
+        "part": "Chest",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pact Chain",
+        "rune": "Holy",
+        "color": "Blue",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Holy Order",
+        "part": "Legs",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Symbol of Might",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Holy Order",
+        "part": "Arm (Right or Left)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Spear",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Dipan Castle (Ch5+)",
+        "enemy": "Holy Order",
+        "part": "Spear",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 19,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Aesir (Patrol)",
+        "part": "Sword",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Horn",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Capricorn Leader",
+        "part": "Horns",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Teeth",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Capricorn Leader",
+        "part": "Head",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Solar Jewel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Capricorn Leader",
+        "part": "Body (Middle)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vortex Crest",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Capricorn Leader",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Assault Missile",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Capricorn Leader",
+        "part": "Bow",
+        "droprate": 45,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Desolation Gem",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Life Stealer",
+        "part": "Legs",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Life Stealer",
+        "part": "Weapon",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Polished Green Ore",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Persistent Pursuer",
+        "part": "Sword (Upper Right)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Verdigris Alloy",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Persistent Pursuer",
+        "part": "Sword (Lower Right)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sage Quartz",
+        "rune": "Ice",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Persistent Pursuer",
+        "part": "Sword (Upper Left)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Chartreuse Spinel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Persistent Pursuer",
+        "part": "Sword (Lower Left)* might be Upper Right, but Upper Right already taken by something else in bestiary",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Persistent Pursuer",
+        "part": "Arm (Upper Right or Upper Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Greatsword",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Ravine Caverns",
+        "enemy": "Persistent Pursuer",
+        "part": "Arm (Lower Right or Lower Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sharp Scissor Heart",
+        "rune": "Darkness",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Sharp Scissors",
+        "part": "Body (Lower)",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Desolation Gem",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Sharp Scissors",
+        "part": "Core",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scissorhand",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Sharp Scissors",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Horn",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Tyrannosaurus Rex (Miniboss)",
+        "part": "Horn",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Exhalation",
+        "rune": "Creation",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Tyrannosaurus Rex (Miniboss)",
+        "part": "Head",
+        "droprate": 80,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Emerald",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Tyrannosaurus Rex (Miniboss)",
+        "part": "Body",
+        "droprate": 80,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Verdigris Scales",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Tyrannosaurus Rex (Miniboss)",
+        "part": "Waist or Tail Tip",
+        "droprate": [80, 40],
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Spiked Claw",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Ravine Caverns",
+        "enemy": "Tyrannosaurus Rex (Miniboss)",
+        "part": "Wing (Right or Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Palm",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Tyrannosaurus Rex (Miniboss)",
+        "part": "Arm (Right or Left)",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evergreen Scales",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Ravine Caverns",
+        "enemy": "Tyrannosaurus Rex (Miniboss)",
+        "part": "Leg (Right or Left)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 20,
+        "associated_skills": 0
+    }
 ]
 }

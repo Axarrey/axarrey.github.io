@@ -3711,6 +3711,605 @@
         "chapter": 5,
         "dungeon": 20,
         "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Aesir (Security)",
+        "part": "Sword",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Armor Piercer",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Armor Beetle",
+        "part": "Body (Right or Left)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Insect Claw",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Armor Beetle",
+        "part": "Body (Right or Left)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Core Ruby",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Black Jewel",
+        "part": "Jewel",
+        "droprate": 25,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Flower Petal",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Fatal Vermin",
+        "part": "Head",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Colossal Canine Tooth",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Giant Troll",
+        "part": "Head",
+        "droprate": 75,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Petrified Ash",
+        "rune": "Bludgeon",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Giant Troll",
+        "part": "Weapon",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Amber Core",
+        "rune": "Training",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Gluttonous Bug",
+        "part": "Body (Front)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Banshee Scales",
+        "rune": "Resistance",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Gluttonous Bug",
+        "part": "Body (Back)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Lance Needle",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Gluttonous Bug",
+        "part": "Tail",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Insect Blade",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Gluttonous Bug",
+        "part": "Arm (Right or Left or Lower)",
+        "droprate": 25,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Indigo Wing",
+        "rune": "Ice",
+        "color": "Blue",
+        "area": "Yggdrasil",
+        "enemy": "Gluttonous Bug",
+        "part": "Wing (Upper Right or Upper Left)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Boltbreath Core",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Hresvelgr",
+        "part": "Body (Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Crimson Feather",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Hresvelgr",
+        "part": "Wing (Right or Left)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Windswept Tailfeather",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Hresvelgr",
+        "part": "Tailfeather (Right or Left)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Soul Flame",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Human Sacrifice",
+        "part": "Candle (Middle)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Eternal Flame",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Yggdrasil",
+        "enemy": "Human Sacrifice",
+        "part": "Candle (Left)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vermillion Cartilage",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Idisi",
+        "part": "Head",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Emerald Heart Core",
+        "rune": "Holy",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Idisi",
+        "part": "Body (Lower)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Rising Dragon Talon",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Idisi",
+        "part": "Arm (Right or Left)",
+        "droprate": 25,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pulverizing Bone",
+        "rune": "Bludgeon",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Idisi",
+        "part": "Tail (Right or Left)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Ejector",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "King Slug",
+        "part": "Body (Base)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Armor Piercer",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "King Slug",
+        "part": "Shell (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Emerald Heart Core",
+        "rune": "Holy",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Roper",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bonafide Bone",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Roper",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Pulverizing Bone",
+        "rune": "Bludgeon",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Roper",
+        "part": "Tentacle (Right or Left)",
+        "droprate": 10,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Chaos Force",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Strayer",
+        "part": "Body (Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Abyss Cloak",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Strayer",
+        "part": "Mantle (Front/Back Right or Front/Back Left)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Aura Force",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Strayer",
+        "part": "Arm (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Undead Dragon Bone",
+        "rune": "Earth",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Abyss Dragon (Miniboss)",
+        "part": "Head",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragonmaggots",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Abyss Dragon (Miniboss)",
+        "part": "Core or Body",
+        "droprate": [80, 60],
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Rotted Scales",
+        "rune": "Weakness",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Abyss Dragon (Miniboss)",
+        "part": "Tail",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    
+    {
+        "name": "Dragon Palm",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Abyss Dragon (Miniboss)",
+        "part": "Leg (Front Right or Front Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Transparent Wing",
+        "rune": "Holy",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Abyss Dragon (Miniboss)",
+        "part": "Wing (Right or Left)",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Polished Green Ore",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Highlander (Miniboss)",
+        "part": "Sword (Upper Right)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Verdigris Alloy",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Highlander (Miniboss)",
+        "part": "Sword (Lower Right)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sage Quartz",
+        "rune": "Ice",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Highlander (Miniboss)",
+        "part": "Sword (Upper Left)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Chartreuse Spinel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Highlander (Miniboss)",
+        "part": "Sword (Lower Left)* might be Upper Right, but Upper Right already taken by something else in bestiary",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Highlander (Miniboss)",
+        "part": "Arm (Upper Right or Upper Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Greatsword",
+        "rune": "Slashing",
+        "color": "Blue",
+        "area": "Yggdrasil",
+        "enemy": "Highlander (Miniboss)",
+        "part": "Arm (Lower Right or Lower Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Solar Jewel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Invasive Arsonist (Miniboss)",
+        "part": "Body",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Chartreuse Spinel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Invasive Arsonist (Miniboss)",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Flare Ore",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Invasive Arsonist (Miniboss)",
+        "part": "Rock Hand (Right)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Phosphate Ore",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Invasive Arsonist (Miniboss)",
+        "part": "Hand (Right or Left)",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Sabertooth",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Yggdrasil",
+        "enemy": "Wild Wolf (Miniboss)",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Core Spinel",
+        "rune": "Ice",
+        "color": "Green",
+        "area": "Yggdrasil",
+        "enemy": "Wild Wolf (Miniboss)",
+        "part": "Body",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 22,
+        "associated_skills": 0
     }
 ]
 }

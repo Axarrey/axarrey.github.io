@@ -158,6 +158,19 @@
         "chapter": 5,
         "dungeon": 23,
         "optional": false
+    },
+
+    {
+        "name": "Tower of Lezard Valeth",
+        "chapter": 6,
+        "dungeon": 24,
+        "optional": false
+    },
+
+    {
+        "name": "Seraphic Gate",
+        "chapter": 6,
+        "dungeon": 25,
+        "optional": true
     }
-    
 ]

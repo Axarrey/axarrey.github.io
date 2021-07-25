@@ -4310,6 +4310,370 @@
         "chapter": 5,
         "dungeon": 22,
         "associated_skills": 0
+    },
+
+    {
+        "name": "Sabertooth",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Deathdog",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Toxicbreath Core",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Deathdog",
+        "part": "Body",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Copper Signet",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Divine Slave",
+        "part": "Body (Right)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cask of Offering",
+        "rune": "Darkness",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Divine Slave",
+        "part": "Body (Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thor's Rage",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Divine Slave",
+        "part": "Sword (Lower Right)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Solar Jewel",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Divine Slave",
+        "part": "Sword (Upper Right)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Ymir's Tears",
+        "rune": "Ice",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Divine Slave",
+        "part": "Sword (Upper Left)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Deep Doom",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Divine Slave",
+        "part": "Sword (Lower Left)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Busted Sword",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Divine Slave",
+        "part": "Arm (Upper Right or Upper Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Aura Force",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Guardian Diva",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Orichalcum",
+        "rune": "Holy",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Guardian Diva",
+        "part": "Shield (1st Left and Right)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Damascus Ore",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Guardian Diva",
+        "part": "Shield (2nd and 4th Left and Right)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Mithril Ore",
+        "rune": "Training",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Guardian Diva",
+        "part": "Shield (3rd Left and Right)",
+        "droprate": 15,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Core Spinel",
+        "rune": "Ice",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Magic Mirror",
+        "part": "Ghost",
+        "droprate": 25,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Horn",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Red Dragon",
+        "part": "Horn",
+        "droprate": 30,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Red Fang",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Red Dragon",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Ruby",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Red Dragon",
+        "part": "Body",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Flamebreath Core",
+        "rune": "Fire",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Red Dragon",
+        "part": "Waist",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Crimson Scales",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Red Dragon",
+        "part": "Tail Tip or Leg (Right or Left)",
+        "droprate": [20, 40],
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon's Wingbone",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Red Dragon",
+        "part": "Wing (Right or Left)",
+        "droprate": 20,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Palm",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Red Dragon",
+        "part": "Arm (Right or Left)",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Emerald Horn",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Silver Dragon (Miniboss)",
+        "part": "Horn",
+        "droprate": 80,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Scarlet Exhalation",
+        "rune": "Creation",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Silver Dragon (Miniboss)",
+        "part": "Head",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Emerald",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Silver Dragon (Miniboss)",
+        "part": "Body",
+        "droprate": 80,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Verdigris Scales",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Silver Dragon (Miniboss)",
+        "part": "Waist or Tail Tip",
+        "droprate": [60, 30],
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Spiked Claw",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Hall of Valhalla",
+        "enemy": "Silver Dragon (Miniboss)",
+        "part": "Wing (Right or Left)",
+        "droprate": 40,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Palm",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Silver Dragon (Miniboss)",
+        "part": "Arm (Right or Left)",
+        "droprate": 50,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evergreen Scales",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Hall of Valhalla",
+        "enemy": "Silver Dragon (Miniboss)",
+        "part": "Leg (Right or Left)",
+        "droprate": 60,
+        "chapter": 5,
+        "dungeon": 23,
+        "associated_skills": 0
     }
 ]
 }

@@ -19,14 +19,14 @@
         "name": "Super Mario Odyssey",
         "textblurb": "The odd game out. I've been lowkey itching to play a 3D platformer and I still only barely touched this one. This one is apparently real gosh darn good, so I'd like to give it a go sometime.",
         "image": "sm_odyssey.webp",
-        "votes": 46
+        "votes": 67
     },
 
     {
         "name": "Final Fantasy XIII-3 Lightning Returns",
         "textblurb": "If Taylor isn't gonna play it again, I will. Great gameplay & soundtrack, you can tell that Tri-Ace helped with this. <br><br> More action-y than its predecessors. Paradigm system is still there, but now you only play as one character and change outfits instead, each with its own ATB bar. ATB is now a resource that charges like you'd expect it to, and is used like MP. Frequent switching to resource manage/recover or to set up combos. Just a joy to play.",
         "image": "ffxiii_lr.webp",
-        "votes": 79
+        "votes": 104
     },
 
     {
@@ -40,6 +40,6 @@
         "name": "Star Ocean Second Evolution",
         "textblurb": "My first Star Ocean game, and apparently one of the best ones! Spoiler alert: This is another Tri-Ace franchise and that means it has certain qualities to it: Namely, an enjoyable combat system with a nice soundtrack to accompany it.<br><br> Story-wise, it's a regular JRPG story set in space, but you can decide who the protagonist is. With the 'maybe game' vote you can specify either Claude or Rena as protag. If empty, my choice.",
         "image": "so_ss.webp",
-        "votes": 50
+        "votes": 79
     }]
 }

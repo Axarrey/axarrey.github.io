@@ -40,8 +40,8 @@
                     event.preventDefault();
 
                     let newheader = document.getElementById("yeye");
-                    newheader.innerHTML = "Dungeons in the chapter you are currently in. Hover over the black bar to reveal name. Click to add dungeon to completed dungeons.";
-                    newheader.style = "margin-top: 1rem";
+                    newheader.innerHTML = "Displaying dungeons in the chapter you are currently in. Hover over the black bar to reveal name. Click to add dungeon to completed dungeons.";
+                    newheader.style = "margin-top: 1rem; margin-bottom: 1rem";
                     
 
                     highest_available_chapter = parseInt(document.querySelector("input[name=chapterSelect]:checked").value);
@@ -95,6 +95,7 @@
                             label.setAttribute("for", box.id);
                             label.innerHTML = item.name;
                             label.className = "spoiler";
+                            label.style = "padding-right: 1rem";
 
                             currentId++;
                             
@@ -222,25 +223,43 @@
                     }
                 }
 
-                let blueResult = document.getElementById("blue_result");
-                blueResult.innerHTML = "";
+                let blueTable = document.getElementById("blue_table");
+                blueTable.innerHTML = 
+                    `<tr>
+                        <td style="padding-right: 5rem">Accessory Name:</td>
+                        <td style="padding-right: 3rem">Enemy Name:</td>
+                        <td style="padding-right: 3rem">Location: </td>
+                        <td>Part: </td>
+                    </tr>`;
 
                 for (let item of blueAccessories) {
-                    blueResult.appendChild(createResultElement(item));
+                    createAccessoryRow(item, blueTable);
                 }
 
-                let redResult = document.getElementById("red_result");
-                redResult.innerHTML = "";
+                let redTable = document.getElementById("red_table");
+                redTable.innerHTML = 
+                    `<tr>
+                        <td style="padding-right: 5rem">Accessory Name:</td>
+                        <td style="padding-right: 3rem">Enemy Name:</td>
+                        <td style="padding-right: 3rem">Location: </td>
+                        <td>Part: </td>
+                    </tr>`;
 
                 for (let item of redAccessories) {
-                    redResult.appendChild(createResultElement(item));
+                    createAccessoryRow(item, redTable);
                 }
 
-                let greenResult = document.getElementById("green_result");
-                greenResult.innerHTML = "";
+                let greenTable = document.getElementById("green_table");
+                greenTable.innerHTML = 
+                    `<tr>
+                        <td style="padding-right: 5rem">Accessory Name:</td>
+                        <td style="padding-right: 3rem">Enemy Name:</td>
+                        <td style="padding-right: 3rem">Location: </td>
+                        <td>Part: </td>
+                    </tr>`;
 
                 for (let item of greenAccessories) {
-                    greenResult.appendChild(createResultElement(item));
+                    createAccessoryRow(item, greenTable);
                 }
 
                 console.log(blueAccessories);
@@ -249,7 +268,27 @@
 
             }
 
-            function createResultElement(accessory){
+            function createAccessoryRow(accessory, table) {
+                let row = table.insertRow(-1);
+                row.style ="padding-top: 0.3rem";
+
+                let accessory_name = row.insertCell(0);
+                let enemy_name = row.insertCell(1);
+                let area = row.insertCell(2);
+                let part = row.insertCell(3);
+
+                let acc_name_text = document.createTextNode(accessory.name);
+                let enemy_name_text = document.createTextNode(accessory.enemy);
+                let area_text = document.createTextNode(accessory.area);
+                let part_text = document.createTextNode(accessory.part);
+
+                accessory_name.appendChild(acc_name_text);
+                enemy_name.appendChild(enemy_name_text);
+                area.appendChild(area_text);
+                part.appendChild(part_text);
+            }
+
+            /*function createResultElement(accessory){
                 let resultContainer = document.createElement("div");
                 resultContainer.style.margin = "1rem";
 
@@ -260,38 +299,38 @@
                 <div>${accessory.part}</div>`
 
                 return resultContainer;
-            }
+            }*/
         
 
         </script>
     </header>
     <main class="index-section summary-text-area" style="color: white;">
-        <p>Select most recently beaten chapter - Note, selecting ch4 + following doesn't work yet</p>
+        <p style="padding-top: 1.5rem">Select most recently beaten chapter - Note, selecting ch4 + following doesn't work yet</p>
 
         <div id="hello">
             <form id="chapterSelect">
                 <div id="radios">
                     <input type="radio" id="ch1" name="chapterSelect" value="1">
-                    <label for="ch1">Chapter 1</label>
+                    <label for="ch1" style="padding-right: 1rem">Chapter 1</label>
                 
                     <input type="radio" id="ch2" name="chapterSelect" value="2">
-                    <label for="ch2">Chapter 2</label>
+                    <label for="ch2" style="padding-right: 1rem">Chapter 2</label>
                 
                     <input type="radio" id="ch3" name="chapterSelect" value="3">
-                    <label for="ch3">Chapter 3</label>
+                    <label for="ch3" style="padding-right: 1rem">Chapter 3</label>
                 
                     <input type="radio" id="ch4" name="chapterSelect" value="4">
-                    <label for="ch4">Chapter 4</label>
+                    <label for="ch4" style="padding-right: 1rem">Chapter 4</label>
                 
                     <input type="radio" id="ch5" name="chapterSelect" value="5">
-                    <label for="ch5">Chapter 5</label>
+                    <label for="ch5" style="padding-right: 1rem">Chapter 5</label>
                 
                     <input type="radio" id="ch6" name="chapterSelect" value="6">
-                    <label for="ch6">Chapter 6</label>
+                    <label for="ch6" style="padding-right: 1rem">Chapter 6</label>
                 </div>
 
                 <div>
-                    <button type="submit" id="mmm" name="submit">Submit</button>
+                    <button type="submit" id="submit_chapters" name="submit">Submit</button>
                 </div>
             </form>
             <div id="yeye"></div>
@@ -299,34 +338,35 @@
         </div>
 
         <section id="accessory_section" class="completed_games" ><p>Click on one of the rune types:</p>
-        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-            <img src="./resources/vp_runes/activation.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Activation')"/>
-            <img src="./resources/vp_runes/bludgeoning.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Bludgeon')"/>
-            <img src="./resources/vp_runes/creation.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Creation')"/>
-            <img src="./resources/vp_runes/darkness.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Darkness')"/>
-            <img src="./resources/vp_runes/earth.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Earth')"/>
-            <img src="./resources/vp_runes/fire.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Fire')"/>
-            <img src="./resources/vp_runes/healing.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Healing')"/>
-            <img src="./resources/vp_runes/holy.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Holy')"/>
-            <img src="./resources/vp_runes/ice.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Ice')"/>
-            <img src="./resources/vp_runes/lightning.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Lightning')"/>
-            <img src="./resources/vp_runes/piercing.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Piercing')"/>
-            <img src="./resources/vp_runes/strengthening.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Strengthening')"/>
-            <img src="./resources/vp_runes/weakening.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Weakness')"/>
-            <img src="./resources/vp_runes/swordrune.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Slashing')"/>
-            <img src="./resources/vp_runes/training.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Training')"/>
-        </div>
+            <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <img src="./resources/vp_runes/activation.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Activation')"/>
+                <img src="./resources/vp_runes/bludgeoning.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Bludgeon')"/>
+                <img src="./resources/vp_runes/creation.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Creation')"/>
+                <img src="./resources/vp_runes/darkness.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Darkness')"/>
+                <img src="./resources/vp_runes/earth.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Earth')"/>
+                <img src="./resources/vp_runes/fire.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Fire')"/>
+                <img src="./resources/vp_runes/healing.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Healing')"/>
+                <img src="./resources/vp_runes/holy.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Holy')"/>
+                <img src="./resources/vp_runes/ice.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Ice')"/>
+                <img src="./resources/vp_runes/lightning.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Lightning')"/>
+                <img src="./resources/vp_runes/piercing.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Piercing')"/>
+                <img src="./resources/vp_runes/strengthening.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Strengthening')"/>
+                <img src="./resources/vp_runes/weakening.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Weakness')"/>
+                <img src="./resources/vp_runes/swordrune.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Slashing')"/>
+                <img src="./resources/vp_runes/training.png" name="accessory_select" style="width: 50px; height: 50px;" onclick="displayRuneInfo('Training')"/>
+            </div>
         </section>
 
-        <div id="blue_result" class="accessory-blue-result" style="display: flex; flex-direction: row; flex-wrap: wrap;"></div>
-        <div id="red_result" class="accessory-red-result" style="display: flex; flex-direction: row; flex-wrap: wrap;"></div>
-        <div id="green_result" class="accessory-green-result" style="display: flex; flex-direction: row; flex-wrap: wrap;"></div>
+        <div id="blue_result" class="accessory-blue-result" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+            <table class="summary-table" id="blue_table"></table>
+        </div>
+        <div id="red_result" class="accessory-red-result" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+            <table class="summary-table" id="red_table"></table>
+        </div>
+        <div id="green_result" class="accessory-green-result" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+            <table class="summary-table" id="green_table"></table>
+        </div>
         <div style="display: flex; justify-content: center;"><a href="http://www.carpsoft.com.br/vp2/" target="_blank" style="color: white;">Data from tri-Ace Fanboy!</a></div>
-
-
-
-
-
     </main>
 
 </body>

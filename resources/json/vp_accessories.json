@@ -4674,6 +4674,721 @@
         "chapter": 5,
         "dungeon": 23,
         "associated_skills": 0
+    },
+
+    {
+        "name": "Warped Horn",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Baphomet",
+        "part": "Horns",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cask of Offering",
+        "rune": "Darkness",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Baphomet",
+        "part": "Body (Front) ",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thor's Rage",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Baphomet",
+        "part": "Body (Middle)",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vortex Crest",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Baphomet",
+        "part": "Arm (Right)",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Demon's Parabola",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Elder Bat",
+        "part": "Ears",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Black Wing Skin",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Elder Bat",
+        "part": "Wing (Left or Right)",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Vampire Heart",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Elder Vampire",
+        "part": "Body (Lower)",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Eternal Silver",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "EMETH",
+        "part": "Body or Shield 4th from Left/Right",
+        "droprate": [60, 40],
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Orichalcum",
+        "rune": "Holy",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "EMETH",
+        "part": "Shields, 1st + 2nd both Left/Right",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evergreen Scales",
+        "rune": "Resistance",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Gigantic Dragon",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Tailbanger",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Gigantic Dragon",
+        "part": "Tail",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Verdigris Scales",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Gigantic Dragon",
+        "part": "Legs (Back Left/Right)",
+        "droprate": 25,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evil Eye Gem",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Nymph",
+        "part": "Body (Upper)",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Emerald Heart Core",
+        "rune": "Holy",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Nymph",
+        "part": "Body (Lower)",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Cutting Claw",
+        "rune": "Slashing",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Nymph",
+        "part": "Arm (Left/Right)",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Bonafide Bone",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Nymph",
+        "part": "Tail (Left/Right)",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Drilling Beak",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Paragriffon",
+        "part": "Head",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Eternal Silver",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Paragriffon",
+        "part": "Body (Front) or Legs (Back)",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Evergreen Feather",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Paragriffon",
+        "part": "Wing Base (Back Left/Right)",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Griffon Talon",
+        "rune": "Activation",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Paragriffon",
+        "part": "Wing Tip (Back Left/Right)",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Gargoyle's Wings",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Paragriffon",
+        "part": "Wing (Front Left/Right)",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Indigo Plume",
+        "rune": "Activation",
+        "color": "Blue",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Paragriffon",
+        "part": "Head Feather",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Soul Pearl",
+        "rune": "Ice",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Prism Jewel",
+        "part": "Jewel",
+        "droprate": 25,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Boltbreath Core",
+        "rune": "Lightning",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Pyrohydra",
+        "part": "Head (Middle + Back Left)",
+        "droprate": 75,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Thunderbreath Core",
+        "rune": "Lightning",
+        "color": "Blue",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Pyrohydra",
+        "part": "Head (Front Left/Right)",
+        "droprate": 60,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Electricbreath Core",
+        "rune": "Lightning",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Pyrohydra",
+        "part": "Head (Back Right)",
+        "droprate": 60,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Crimson Scales",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Pyrohydra",
+        "part": "Body (Front)",
+        "droprate": 80,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Dragon Ruby",
+        "rune": "Fire",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Pyrohydra",
+        "part": "Body (Middle)",
+        "droprate": 80,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Black Skull",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Rotting Demon",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Blazebreath Core",
+        "rune": "Fire",
+        "color": "Blue",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Rotting Demon",
+        "part": "Chest (Left)",
+        "droprate": 60,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Deep Doom",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Rotting Demon",
+        "part": "Chest (Right)",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Augite of Life",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Rotting Demon",
+        "part": "Waist",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Fool's Gem",
+        "rune": "Earth",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Type 44 Demon",
+        "part": "Chest",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },    
+
+    {
+        "name": "Chaos Force",
+        "rune": "Activation",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Undead Master",
+        "part": "Body (Right Side) or Arm (Left/Right)",
+        "droprate": [50, 75],
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    }, 
+    
+    {
+        "name": "Abyss Cloak",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Undead Master",
+        "part": "Mantle (Side Left/Right)",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    }, 
+    
+    {
+        "name": "Dark Amulet",
+        "rune": "Darkness",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Undead Master",
+        "part": "Mantle (Back Left/Right)",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {
+        "name": "Drilling Ram's Horn",
+        "rune": "Piercing",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Castle Fort (Miniboss)",
+        "part": "Horn",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    }, 
+
+    {
+        "name": "Augite of Life",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Castle Fort (Miniboss)",
+        "part": "Legs",
+        "droprate": 80,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    }, 
+
+    {   
+        "name": "Eternal Silver",
+        "rune": "Training",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Castle Fort (Miniboss)",
+        "part": "Tail",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    }, 
+
+    {   
+        "name": "Hollow Shell",
+        "rune": "Ice",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Castle Fort (Miniboss)",
+        "part": "Upper Armor",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+    
+    {   
+        "name": "Assault Missile",
+        "rune": "Weakness",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Castle Fort (Miniboss)",
+        "part": "Spearhead (Left/Right)",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Mithril Ore",
+        "rune": "Training",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Castle Fort (Miniboss)",
+        "part": "Shield Cover (Left/Right)",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Colossal Canine Teeth",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Gigantic Troll (Miniboss)",
+        "part": "Head",
+        "droprate": 75,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Petrified Ash",
+        "rune": "Bludgeon",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Gigantic Troll (Miniboss)",
+        "part": "Weapon",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Demon's Parabola",
+        "rune": "Darkness",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Lord Bat (Miniboss)",
+        "part": "Ears",
+        "droprate": 30,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Copper Signet",
+        "rune": "Holy",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slight Devil (Miniboss)",
+        "part": "Chest",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Augite of Life",
+        "rune": "Training",
+        "color": "Blue",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slight Devil (Miniboss)",
+        "part": "Chest",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Symbol of Might",
+        "rune": "Strengthening",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slight Devil (Miniboss)",
+        "part": "Arm (Left/Right)",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Busted Spear",
+        "rune": "Piercing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slight Devil (Miniboss)",
+        "part": "Spear",
+        "droprate": 40,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Evil Eye Gem",
+        "rune": "Healing",
+        "color": "Red",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slop (Miniboss)",
+        "part": "Head",
+        "droprate": 20,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Emerald Heart Core",
+        "rune": "Holy",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slop (Miniboss)",
+        "part": "Body",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Bonafide Bone",
+        "rune": "Strengthening",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slop (Miniboss)",
+        "part": "Shoulder (Upper Left/Right Lower Left), Tentacle (Lower Right)",
+        "droprate": 25,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Pulverizing Bone",
+        "rune": "Bludgeon",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Slop (Miniboss)",
+        "part": "Shoulder (Lower Right), Tentacle (Upper Left/Right, Lower Left)",
+        "droprate": 25,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Vampire Heart",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Vampire Lord (Miniboss)",
+        "part": "Body (Lower)",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
+    },
+
+    {   
+        "name": "Vampire Heart",
+        "rune": "Healing",
+        "color": "Green",
+        "area": "Tower of Lezard Valeth",
+        "enemy": "Vampire Lord (Miniboss)",
+        "part": "Body (Lower)",
+        "droprate": 50,
+        "chapter": 6,
+        "dungeon": 24,
+        "associated_skills": 0
     }
 ]
 }
